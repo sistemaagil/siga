@@ -6,3 +6,4 @@ Realice los siguientes pasos.
 2. En la sección de "Períodos" seleccione el periodo donde quiere ver las carreras que desée saber y presione el botón "Carreras". 
 ![CARPER2](CARPER_2.gif)  
 3. Finalmente podrá visualizar las carreras que tiene por período académico.
+
