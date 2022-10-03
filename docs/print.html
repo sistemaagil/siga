@@ -1,0 +1,1111 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>ejemplo_manualSiga</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduccion.html">Introducción</a></li><li class="chapter-item expanded affix "><li class="part-title">Perfil Estudiantes</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Recuperar contraseña</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Solicitud de matricula</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Mi semestre</div></li><li class="chapter-item expanded "><a href="Actualizar_Ficha_Personal_E.html"><strong aria-hidden="true">4.</strong> Actualizar ficha personal</a></li><li class="chapter-item expanded affix "><li class="part-title">Perfil Docentes</li><li class="chapter-item expanded "><a href="inicioSesion.html"><strong aria-hidden="true">5.</strong> Iniciar sesión</a></li><li class="chapter-item expanded "><a href="Interfaz_de_Usuario.html"><strong aria-hidden="true">6.</strong> Interfaz de usuario</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Recuperar contraseña</div></li><li class="chapter-item expanded "><a href="Ficha_docente.html"><strong aria-hidden="true">8.</strong> Actualizar ficha docente</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Distributivo</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Solicitudes</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">11.</strong> Reportes</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">12.</strong> Cambio de clave</div></li><li class="chapter-item expanded "><a href="Crear_asistencia.html"><strong aria-hidden="true">13.</strong> Crear asistencia</a></li><li class="chapter-item expanded "><a href="Cambiar_de_perfil.html"><strong aria-hidden="true">14.</strong> Cambiar Perfil</a></li><li class="chapter-item expanded "><a href="Actualizar_Paralelo.html"><strong aria-hidden="true">15.</strong> Actualizar paralelo</a></li><li class="chapter-item expanded "><a href="Entidades.html"><strong aria-hidden="true">16.</strong> Cambiar código de carreras</a></li><li class="chapter-item expanded "><a href="Crear_asistencia.html"><strong aria-hidden="true">17.</strong> Crear Asistencia</a></li><li class="chapter-item expanded "><a href="Eliminar_asignatura.html"><strong aria-hidden="true">18.</strong> Eliminar asignatura</a></li><li class="chapter-item expanded "><a href="Generar_asignaturas.html"><strong aria-hidden="true">19.</strong> Generar asignatura</a></li><li class="chapter-item expanded "><a href="Modificar_asignatura.html"><strong aria-hidden="true">20.</strong> Modificar Asigntura</a></li><li class="chapter-item expanded "><a href="Registro_de_notas_y_asistencia.html"><strong aria-hidden="true">21.</strong> Registro de asistencia y notas</a></li><li class="chapter-item expanded "><a href="tipo_de_materiaas.html"><strong aria-hidden="true">22.</strong> Tipos de materias</a></li><li class="chapter-item expanded affix "><li class="part-title">Perfil Coodinador</li><li class="chapter-item expanded "><div><strong aria-hidden="true">23.</strong> Periodos</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">24.</strong> Carreras</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">25.</strong> Maestro de matricula</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">26.</strong> Maestro Paralelos</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">27.</strong> Maestro Notas</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="carga_de_notas.html"><strong aria-hidden="true">27.1.</strong> Carga de notas</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">28.</strong> Maestro de solicitudes</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">29.</strong> Reportes</div></li><li class="chapter-item expanded affix "><li class="part-title">Perfil Revisor</li><li class="chapter-item expanded "><div><strong aria-hidden="true">30.</strong> Maestro de matricula</div></li><li class="chapter-item expanded affix "><li class="part-title">Perfil Lider SIGA</li><li class="chapter-item expanded "><a href="actConOtrosUsu.html"><strong aria-hidden="true">31.</strong> Actualizar contraseña de otros usuarios</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">32.</strong> Resetear clave</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">33.</strong> Estudiantes IST</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">34.</strong> Centros</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">35.</strong> Campus</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">36.</strong> Aulas</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">37.</strong> Turnos para horarios</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="conf_horarios.html"><strong aria-hidden="true">37.1.</strong> Configurar horarios</a></li><li class="chapter-item expanded "><a href="conf_calendario.html"><strong aria-hidden="true">37.2.</strong> Configurar Calendarios</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">38.</strong> Personal administrativo</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">39.</strong> Unidades Administrativas</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">40.</strong> Maestro de asignaturas</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">41.</strong> Matriz MTN</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">42.</strong> Lista de correos</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">43.</strong> Ingreso de con-validación reingresos</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">44.</strong> Reportes</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Generar_reportes.html"><strong aria-hidden="true">44.1.</strong> Generar reportes</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">45.</strong> Dashboard</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">46.</strong> Docentes</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Registro_Docentes.html"><strong aria-hidden="true">46.1.</strong> Registrar docente</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">47.</strong> Solcitud de actualización de perfiles</div></li><li class="chapter-item expanded "><a href="entidades.html"><strong aria-hidden="true">48.</strong> Añadir entiedades publicas/privadas</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">49.</strong> Solicitud de soporte</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">ejemplo_manualSiga</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introducción"><a class="header" href="#introducción"><strong>Introducción</strong></a></h1>
+<p>Sistemas Ágiles Líder en negocios digitales les presenta el manual de procedimiento para el uso del sistema SIGA, donde se pretende que el manual pueda educar en la optimización de los procesos del sistema “SIGA” donde esperamos que su impacto sea la rápida familiarización de nuevos docentes como de nuevos estudiantes, sin olvidarse de estudiantes o docentes con mas experiencia.</p>
+<p>Los estudiantes de Primer semestre del INSTITUTO YAVIRAC, hemos realizado  en conjunto con Sistemas Agiles el manual, partiendo de los objetivos marcados al inicio de esta introducción.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="actualizar-ficha-personal-estudiante"><a class="header" href="#actualizar-ficha-personal-estudiante"><strong>Actualizar Ficha personal Estudiante</strong></a></h1>
+<p>Colocar su usuario y contraseña presione en el botón ingresar.</p>
+<p><img src="FP_Inicio.gif" alt="Gif1" /></p>
+<p>Luego de haber ingresado diríjase a la esquina superior izquierda a la sección módulos presione click y presione click en el módulo <strong>&quot;Académico&quot;</strong>.</p>
+<center>
+<p><img src="FP_2.gif" alt="Gif2" /></p>
+</center>
+<p>Una vez que haya ingresado en el módulo Académico, en el menu <strong>&quot;Estudiante&quot;</strong> , dar click en el submenu <strong>¨Ficha Personal¨</strong>. Se abrirá la Ficha Personal en caso de ser nuevo los campos vendrán sin llenar y en caso de estudiantes que se han matriculado en semestres anteriores mediante el <strong>SIGA</strong> vendrá con los datos pre cargados.</p>
+<center>
+<p><img src="FP_3.gif" alt="Gif3" /></p>
+</center>
+<h1 id="datos-personales"><a class="header" href="#datos-personales"><strong>Datos Personales</strong></a></h1>
+<p>Seleccionar una foto apropiada, con fondo blanco y que se aprecie bien el rostro.
+Los campos  son de 3 tipos de seleccionar, de texto libre y de tipo fecha
+Los campos obligatorios están marcados con un asterisco de color rojo, estos no pueden dejarse en blanco debido a que obligatoriamente deben cargarse en el sistema.
+Hay una consideración importante en el campo <strong>&quot;Etnia&quot;</strong> al darle click aparecerán un conjunto de valores los cuales pueden ser seleccionados. En particular si selecciona la etnia indígena se habilitara el campo de <strong>&quot;Pueblo/Nacionalidad&quot;</strong> para seleccionar uno de los que estén disponibles, en el caso de no seleccionar la nacionalidad indígena y seleccionar otra etnia automáticamente se bloqueara el campo <strong>&quot;Pueblo/Nacionalidad&quot;</strong>.</p>
+<center>
+<p><img src="FP_4.gif" alt="Gif4" /></p>
+</center>
+<p>En el campo de discapacidad en el caso no poseer se deja marcado el valor podrá pasar al siguiente campo de enfermedades catastróficas, si tiene alguna discapacidad tendrá que seleccionar el valor si se habilitaran los campos: tipo de discapacidad, porcentaje de discapacidad y número de carne en caso de no contar con el carnet tendrá que seleccionar que no tiene una discapacidad y seleccionar una enfermedad catastrófica o cuando se comunique con docente con usted poderle indicar la particularidad de su caso.</p>
+<center>
+<p><img src="FP_5.gif" alt="Gif5" /></p>
+</center>
+<h1 id="datos-de-contacto-y-datos-adicionales"><a class="header" href="#datos-de-contacto-y-datos-adicionales"><strong>Datos de contacto y Datos adicionales</strong></a></h1>
+<p>Completar todos los datos.
+De igual manera tendrá que completar los datos, seleccionando los valores disponibles
+En el caso del campo Cantón de nacimiento y Cantón de residencia se tendrá que llenar presionando el icono de lupa y se abrirá una ventana emergente en la que podrá filtra por Provincia o por el Nombre del Catón, escriba la Provincia y presione la tecla tab de su teclado para pasar a llenar el campo del Cantón, evite presionar la tecla enter. En el campo de Cantón de residencia se llenara de igual manera.</p>
+<center>
+<p><img src="FP_6.gif" alt="Gif6" /></p>
+</center>
+<p>El campo de ubicación geográfica se diferencia a los demás y en cual tendrá que colocar la latitud y longitud de donde vive para ello tendrá que darle click en el botón cargar información y aparecerá una ventana emergente en la cual podrá buscar su ubicación, en caso de que le aparezca un mensajes de Google en el que diga que no puede cargar correctamente los mapas simplemente tendrá que darle doble click en el botón aceptar y le permitirá seleccionar su ubicación, para poder desplazarse por el mapa tendrá que presionar la tecla <strong>Ctrl</strong> de su teclado y con el con la rueda del mouse poder acercar o alejar la vista del mapa, para seleccionar su latitud y longitud tendrá que dar click izquierdo y automáticamente se va capturar los puntos le da click en el botón aceptar y automáticamente se llenará los campos.</p>
+<center>
+<p><img src="FP_7.gif" alt="Gif7" /></p>
+</center>
+<p>Termine de completar toda la información necesaria.</p>
+<h1 id="datos-institucionales"><a class="header" href="#datos-institucionales"><strong>Datos Institucionales</strong></a></h1>
+<p>En el campo <strong>&quot;Tipo de colegio&quot;</strong> darle click y tiene que colocar el tipo colegio que estuvo estudiando.</p>
+<center>
+<p><img src="FP_8.gif" alt="GIF8" /></p>
+</center>
+<p>En ocupación existen dos opciones si el usuario: solo estudia o trabaja y estudia. En el caso de seleccionar que solo estudia en el siguiente campo tendrá que colocar que no aplica, pero en el caso de que haya seleccionado la opción que trabaja y estudia tendrá que seleccionar una de las tres opciones disponibles.</p>
+<center>
+<p><img src="FP_9.gif" alt="GIF9" /></p>
+</center>
+<p>En el campo de mantiene la gratuidad viene bloqueado asi que no tiene que modificar nada, en el campo de pensión diferencias y bono de desarrollo tendrá que marcar en caso de que reciba pero en el caso de que no reciba los dejará sin marcar y tendrá que seguir completando los demás campos.</p>
+<h1 id="prácticas-pre-profesionales-y-vinculación"><a class="header" href="#prácticas-pre-profesionales-y-vinculación"><strong>Prácticas Pre-Profesionales y Vinculación</strong></a></h1>
+<p>En el campo de prácticas pre-profesionales solo se colocará información referente a las prácticas que ha hecho en el nivel superior al igual que en el campo de vinculación con la sociedad, en caso de haber realizados las prácticas pre-profesionales a nivel superior marcar la casilla y colocar el número de horas realizadas.
+En el campo Entorno Institucional es donde realizo las prácticas pre-profesionales y seleccionar una de las opciones, en el caso de no haber realizado las practicas tiene que seleccionar la opción de no aplica y completar los datos faltantes.
+Una vez que haya terminado de llenar todos los campos tiene que darle click en el botón guardar y luego darle click en el botón imprimir ficha y se va generar un archivo pdf con ciertos datos que usted registro en estas tres secciones, cabe recalcar que no aparecerán todos datos solo los mas relevantes luego tendrá que firmarla con esfero color azul y posteriormente esa ficha se utilizará para su formalización de pre-matricula.</p>
+<center>
+<p><img src="FP_10.gif" alt="GIF10" /></p>
+</center>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-para-iniciar-sesión-en-el-sistema-siga"><a class="header" href="#manual-para-iniciar-sesión-en-el-sistema-siga"><strong>Manual para iniciar sesión en el sistema SIGA</strong></a></h1>
+<!--lista-->
+<ol>
+<li>
+<p>Ingrese a la Página del SIGA o puede ingresar mediante el siguiente link* <a href="http://siga.institutos.gob.ec:8080/siga-web/">siga.institutos.gob.ec</a></p>
+</li>
+<li>
+<p>Ingrese su usuario</p>
+</li>
+<li>
+<p>Ingrese su contraseña y presione en el botón ingresar*</p>
+<p><img src="Gif%20Inicio.gif" alt="Gif_inicio" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas"><a class="header" href="#preguntas-relacionadas"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Cuál es la dirección para ingresar al sistema SIGA?</p>
+</blockquote>
+<blockquote>
+<p>¿Como ingresar al sistema SIGA?</p>
+</blockquote>
+<blockquote>
+<p>¿Cuál es el link del sistema SIGA?</p>
+</blockquote>
+<blockquote>
+<p>¿Como recuperar mi contraseña?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="interfaz-de-usuario"><a class="header" href="#interfaz-de-usuario"><strong>Interfaz de Usuario</strong></a></h1>
+<p>Una vez iniciado sesión en el sistema SIGA encontrara la siguiente  interfaz.</p>
+<ol>
+<li>
+<p>En la barra superior derecha se encuentra el nombre de usuario con el que esta registrado en el sistema SIGA.</p>
+<p><img src="IDU_icono2.gif" alt="Icono2" /></p>
+</li>
+<li>
+<p>El ícono usuario contiene submenús de ayuda.</p>
+<p><img src="IDU_Submenu.gif" alt="Submenu" /></p>
+</li>
+<li>
+<p>En la barra superior izquierda se encuentra un ícono amarillo  que le permite recargar la página.</p>
+<p><img src="IDU_boton.gif" alt="Boton" /></p>
+</li>
+<li>
+<p>En la barra lateral izquierda está la sección módulo que contiene los menús principales que varia según el rol logeado.</p>
+<p><img src="IDU_modulo.gif" alt="Módulo" /></p>
+</li>
+<li>
+<p>Cada menú contiene submenus para las funcionalidades del sistema SIGA.</p>
+<p><img src="IDU_modulo1.gif" alt="Módulo1" /></p>
+</li>
+<li>
+<p>En el centro de la pantalla aparececera las funcionalidades  según la opción que escoja en el menú. </p>
+<p><img src="IDU_modulo2.gif" alt="Módulo2" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-1"><a class="header" href="#preguntas-relacionadas-1"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Cómo puedo cerrar sesión?</p>
+</blockquote>
+<blockquote>
+<p>¿Dónde puedo ver los módulos que tengo ?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo puedo regresar al inicio?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-actualizar-ficha-del-docente"><a class="header" href="#manual-actualizar-ficha-del-docente">Manual Actualizar Ficha del Docente</a></h1>
+<h2 id="para-actualizar-sus-datos-personales-como-docente"><a class="header" href="#para-actualizar-sus-datos-personales-como-docente">Para actualizar sus datos personales como <strong>Docente</strong></a></h2>
+<ol>
+<li>
+<p>Ingrese en la sección <strong>Módulos</strong>, en la esquina superior izquierda y elija en el módulo <strong>Docentes</strong>.</p>
+<p><img src="CFD_M%C3%B3dulo.gif" alt="Módulo" /></p>
+</li>
+<li>
+<p>En el menú Mi Docencia seleccione el submenú <strong>Ficha Docente</strong>.</p>
+<p><img src="CFD_Ficha.gif" alt="Ficha" /></p>
+</li>
+<li>
+<p>Colocar una foto del docente.</p>
+<p><img src="CFD_Foto2.gif" alt="Foto" /></p>
+</li>
+<li>
+<p>Actualice los datos según sea necesario para colocar los datos correctos y llene cada uno de los campos.</p>
+<p><img src="CFD_DatosGEN.gif" alt="Datos" /></p>
+</li>
+<li>
+<p>Presione el <strong>Botón Guardar</strong>.</p>
+<p><img src="CFD_Guardar.gif" alt="Guardar" /></p>
+<p>Le aparecerá un mensaje de <strong>Guardado Exitoso</strong></p>
+</li>
+<li>
+<p>Presione el <strong>Botón Imprimir Ficha</strong>.</p>
+<p><img src="CFD_Imprimirficha.gif" alt="Imprimir" /></p>
+<p>Verifique en su computador la descarga de la ficha.</p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-2"><a class="header" href="#preguntas-relacionadas-2">Preguntas Relacionadas</a></h2>
+<blockquote>
+<p>¿Dónde puedo cambiar mis datos de docente?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo cambiar mis datos de docente?</p>
+</blockquote>
+<blockquote>
+<p>¿Qué debo poner para cambiar mis datos de docente?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo actualizar mis datos personales como docente?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="crear-asistencia"><a class="header" href="#crear-asistencia"><strong>Crear asistencia</strong></a></h1>
+<h2 id="para-crear-asistencia-dentro-del-sistema-siga"><a class="header" href="#para-crear-asistencia-dentro-del-sistema-siga"><strong>Para crear asistencia dentro del sistema SIGA.</strong></a></h2>
+<ol>
+<li>
+<p>Diríjase al apartado superior derecha y seleccione su perfil y en el submenú e ingrese a &quot;Cambio de Instituto&quot;. </p>
+<p><img src="CA_paso1.gif" alt="gif1" /></p>
+</li>
+<li>
+<p>En perfil, seleccione &quot;Líder SIGA&quot; y presione &quot;Aceptar&quot;. </p>
+<p><img src="CA_paso2.gif" alt="gif2" /></p>
+</li>
+<li>
+<p>Diríjase a la sección &quot;Módulos&quot; en la parte superior izquierda e ingrese al módulo &quot;Matricula&quot;. </p>
+<p><img src="CA_paso3.gif" alt="gif3" /></p>
+</li>
+<li>
+<p>Nos dirigimos a menú &quot;Matricula&quot; submenú &quot;Maestro de Asistencias&quot;. </p>
+<p><img src="CA_paso4.gif" alt="gif4" /></p>
+</li>
+<li>
+<p>Automáticamente se van generando las asistencias conforme las configuraciones de los horarios y calendarios, sin embargo, también podemos generar o filtrar por carrera. </p>
+<p><img src="CA_paso5.gif" alt="gif5" /></p>
+</li>
+<li>
+<p>Por ejemplo vamos a generar los de CUARTO y a continuación presionar botón &quot;Generar&quot;.</p>
+<p><img src="CA_paso6.gif" alt="gif6" /></p>
+</li>
+<li>
+<p>Se mostrará en pantalla un cuadro, seleccione la fecha y presione &quot;Aceptar&quot; y aparece la materia programación de aplicaciones web del docente correspondiente, del turno vespertino de esta manera se genera la asistencia a partir de aquí adelante todos los días se generaría asistencia de forma automática para las asignaturas que tengan configurado, el horario y calendario.</p>
+<p><img src="CA_paso7.gif" alt="gif7" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-3"><a class="header" href="#preguntas-relacionadas-3"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Es necesario un rol?</p>
+</blockquote>
+<blockquote>
+<p>¿Se genera automáticamente mi asistencia después de la generada? </p>
+</blockquote>
+<blockquote>
+<p>¿Como genero una asistencia para una asignatura específica?            </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-cambio-de-perfil-en-la-plataforma-siga"><a class="header" href="#manual-cambio-de-perfil-en-la-plataforma-siga"><strong>Manual cambio de perfil en la plataforma SIGA</strong></a></h1>
+<!--lista--> 
+<ol>
+<li>
+<p>Ingrese a la plataforma SIGA.</p>
+<p><img src="CDP_1.gif" alt="gif1" /></p>
+</li>
+<li>
+<p>Diríjase a la esquina superior derecha de la pantalla, presione click sobre su nombre e ingrese la opción de &quot;Cambio de Instituto&quot;</p>
+<p><img src="CDP_2.gif" alt="gif2" /></p>
+</li>
+<li>
+<p>Ubiqur el campus perfil, seleccione el perfil deseado y finalmente presione el boton &quot;Aceptar&quot; y ya ha cambiado el perfil.</p>
+<p><img src="CDP_3.gif" alt="gif3" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-4"><a class="header" href="#preguntas-relacionadas-4"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Cómo cambio el perfil de usuario?*</p>
+</blockquote>
+<blockquote>
+<p>¿Cuándo tengo que cambiar mi perfil de usuario?</p>
+</blockquote>
+<blockquote>
+<p>¿Cuántos perfiles de usuarios puedo tener?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="modificar-paralelo-en-el-sistema-siga"><a class="header" href="#modificar-paralelo-en-el-sistema-siga"><strong>Modificar Paralelo en el sistema SIGA</strong></a></h1>
+<p>Para actualizar un paralelo realize lo siguientes pasos</p>
+<ol>
+<li>
+<p>Seleccione la asignatura en la que desea actualizar el paralelo, presione el botón modificar.</p>
+<p><img src="AP_7.gif" alt="gif" /></p>
+</li>
+<li>
+<p>En el apartado nombre coloque el paralelo asignado , seleccione la jornada correspondiente.</p>
+<p><img src="AP_gif.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Una vez completado el proceso presione el botón guardar.</p>
+<p><img src="AP_14.gif" alt="gif" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-añadir-entidades-publicasprivadas"><a class="header" href="#manual-añadir-entidades-publicasprivadas"><strong>Manual Añadir Entidades Publicas/Privadas</strong></a></h1>
+<h2 id="para-añadir-entidades-publicas-o-privadas"><a class="header" href="#para-añadir-entidades-publicas-o-privadas"><strong>Para añadir entidades Publicas o Privadas</strong>.</a></h2>
+<ol>
+<li>
+<p>Ingrese en la sección <strong>Módulos</strong>, en la esquina superior izquierda y elija en el módulo <strong>Académico</strong>.</p>
+<p><img src="AEPP_M%C3%B3dulo.gif" alt="Módulo" /></p>
+<p><img src="AEPP_Acad%C3%A9mico.gif" alt="Módulo" /></p>
+</li>
+<li>
+<p>En el <strong>Módulo de Académico</strong> elija el submenú <strong>Administración</strong>.</p>
+<p><img src="AEPP_Administraci%C3%B3n.gif" alt="Académico" /></p>
+</li>
+<li>
+<p>Ingrese en el submenú <strong>Entidades Públicas Privadas</strong>.</p>
+<p><img src="AEPP_publi_priv.gif" alt="Entidades" /></p>
+</li>
+<li>
+<p>Se podrá revisar los datos de las empresas y las personas a las que se podrá contactar.</p>
+<p><img src="AEPP_Empresas.gif" alt="Empresas" /></p>
+</li>
+<li>
+<p>Presione el <strong>Bóton Nuevo</strong> si desea agregar una nueva empresa .</p>
+<p><img src="AEPP_Nuevo.gif" alt="Nuevo" /></p>
+<p>Le aparecerá un mensaje de <strong>Guardado Exitoso</strong></p>
+</li>
+<li>
+<p>Presione el <strong>Botón Modificar</strong> si desea actualizar los datos de la empresa.</p>
+<p><img src="AEPP_Modificar.gif" alt="Modificar" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-5"><a class="header" href="#preguntas-relacionadas-5"><strong>Preguntas Relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Dónde puedo cambiar datos de empresas?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo cambiar mis datos de empresa?</p>
+</blockquote>
+<blockquote>
+<p>¿Qué debo poner para cambiar mis datos de empresa?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo actualizar los datos empresariales?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="crear-asistencia-1"><a class="header" href="#crear-asistencia-1"><strong>Crear asistencia</strong></a></h1>
+<h2 id="para-crear-asistencia-dentro-del-sistema-siga-1"><a class="header" href="#para-crear-asistencia-dentro-del-sistema-siga-1"><strong>Para crear asistencia dentro del sistema SIGA.</strong></a></h2>
+<ol>
+<li>
+<p>Diríjase al apartado superior derecha y seleccione su perfil y en el submenú e ingrese a &quot;Cambio de Instituto&quot;. </p>
+<p><img src="CA_paso1.gif" alt="gif1" /></p>
+</li>
+<li>
+<p>En perfil, seleccione &quot;Líder SIGA&quot; y presione &quot;Aceptar&quot;. </p>
+<p><img src="CA_paso2.gif" alt="gif2" /></p>
+</li>
+<li>
+<p>Diríjase a la sección &quot;Módulos&quot; en la parte superior izquierda e ingrese al módulo &quot;Matricula&quot;. </p>
+<p><img src="CA_paso3.gif" alt="gif3" /></p>
+</li>
+<li>
+<p>Nos dirigimos a menú &quot;Matricula&quot; submenú &quot;Maestro de Asistencias&quot;. </p>
+<p><img src="CA_paso4.gif" alt="gif4" /></p>
+</li>
+<li>
+<p>Automáticamente se van generando las asistencias conforme las configuraciones de los horarios y calendarios, sin embargo, también podemos generar o filtrar por carrera. </p>
+<p><img src="CA_paso5.gif" alt="gif5" /></p>
+</li>
+<li>
+<p>Por ejemplo vamos a generar los de CUARTO y a continuación presionar botón &quot;Generar&quot;.</p>
+<p><img src="CA_paso6.gif" alt="gif6" /></p>
+</li>
+<li>
+<p>Se mostrará en pantalla un cuadro, seleccione la fecha y presione &quot;Aceptar&quot; y aparece la materia programación de aplicaciones web del docente correspondiente, del turno vespertino de esta manera se genera la asistencia a partir de aquí adelante todos los días se generaría asistencia de forma automática para las asignaturas que tengan configurado, el horario y calendario.</p>
+<p><img src="CA_paso7.gif" alt="gif7" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-6"><a class="header" href="#preguntas-relacionadas-6"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Es necesario un rol?</p>
+</blockquote>
+<blockquote>
+<p>¿Se genera automáticamente mi asistencia después de la generada? </p>
+</blockquote>
+<blockquote>
+<p>¿Como genero una asistencia para una asignatura específica?            </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-para-eliminar-asignaturas"><a class="header" href="#manual-para-eliminar-asignaturas"><strong>Manual para eliminar asignaturas</strong></a></h1>
+<ol>
+<li>
+<p>Para poder eliminar asignaturas coloquese en el perfil de líder siga y nos dirigimos al módulo matrícula.</p>
+<p><img src="EA_GIF1.gif" alt="GIFGA1" /></p>
+</li>
+<li>
+<p>Diríjase al menú instituto y elegimos carreras.</p>
+<p><img src="EA_GIF2.gif" alt="GIFGA2" /></p>
+</li>
+<li>
+<p>Seleccione la carrera deseada y dé click en el botón &quot;Niveles Académicos&quot;.</p>
+<p><img src="EA_GIF3.gif" alt="GIFGA3" /></p>
+</li>
+<li>
+<p>Seleccione el semestre y presione click en el botón &quot;Asignaturas&quot;.</p>
+<p><img src="EA_GIF4.gif" alt="GIFGA4" /></p>
+</li>
+<li>
+<p>Elija la asignatura que quiera borrar y dé click en el botón &quot;Eliminar&quot; y listo, ha completado el proceso de eliminar una asignatura.</p>
+<p><img src="EA_GIF5.gif" alt="GIFGA5" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-para-crear-asignaturas"><a class="header" href="#manual-para-crear-asignaturas"><strong>Manual para crear asignaturas</strong></a></h1>
+<ol>
+<li>
+<p>Para poder crear asignaturas solo lo pueden hacer los coordinadores de carrera y debe colocarse en el perfil de líder siga 
+<img src="GA_GA1.gif" alt="GIFGA1" /></p>
+</li>
+<li>
+<p>Nos dirigimos al modulo matricula luego al menú instituto y elegimos carreras 
+<img src="GA_2.gif" alt="GIF2" /></p>
+</li>
+<li>
+<p>Nos dirigimos hacia la carrera que deseamos crear una asignatura (En este ejemplo seleccionamos Desarrollo de Software) y damos clic en el botón “Niveles Académicos”
+<img src="GA_3.gif" alt="GIF3" /> </p>
+</li>
+<li>
+<p>Seleccionamos la asignatura y clickamos en el botón &quot;Nuevo&quot;. 
+<img src="GA_img2.png" alt="IMGA1" /> 
+Y nos mostrará una serie de opciones que podemos generar en la asignatura.
+<img src="GA_IMG1.jpg" alt="IMG2" /></p>
+</li>
+</ol>
+<h2 id="opciones-de-generación-de-asignatura"><a class="header" href="#opciones-de-generación-de-asignatura"><strong>Opciones de generación de asignatura</strong></a></h2>
+<p>En el apartado codigo coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos generar.</p>
+<p><img src="GA_12.gif" alt="GIF12" /> </p>
+<p>Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas preprofesionales, inglés o titulación.</p>
+<p><img src="GA_7.gif" alt="GIF7" /></p>
+<p>Unidad de Organización Curricular: elegiremos su es unidad básica, unidad profesional, unidad de titulación, complementarias o dualidad .</p>
+<p><img src="GA_8.gif" alt="GIF8" /></p>
+<p>Área: Podrá escoger el área que se desempeñe la asignatura.</p>
+<p><img src="GA_9.gif" alt="GIF9" /></p>
+<p>Eje de Formación: en esta opción podrá elegir entre: fundamentos teóricos, adaptación e innovación tecnológica, comunicación y lenguajes, integración de saberes, contextos y cultura y no definido.</p>
+<p><img src="GA_10.gif" alt="GIF10" /></p>
+<p>Tipo de Materia: Podremos escoger si la asignatura será, Normal, Dual teórica o Dual practica</p>
+<p><img src="GA_11.gif" alt="GIF11" /></p>
+<p>En las siguientes opciones tenemos: Horas Semanales Horas Docencia, Horas Practica, Horas Autónoma, % Nota del Nivel ( elegiremos el peso que tendrá la nota de la materia creada o modificada frente al proyecto integrador en caso de tener), estado puede ser activo o inactivo.</p>
+<p><img src="GA_IMG4.jpg" alt="IMG2" /></p>
+<ol start="6">
+<li>
+<p>Una vez hayamos llenado las opciones según el tipo de materia generada, podremos elegir si la materia tendrá “PRE-REQUISITOS” Y/O “CO Requisitos”
+<img src="GA_IMG5.jpg" alt="IMG3" /></p>
+</li>
+<li>
+<p>Una vez finalizado el proceso damos clic al botón “Guardar” y listo ha completado el proceso de generar una asignatura.
+<img src="GA_13.gif" alt="GIF13" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-para-crear-asignaturas-1"><a class="header" href="#manual-para-crear-asignaturas-1"><strong>Manual para crear asignaturas</strong></a></h1>
+<ol>
+<li>
+<p>Para poder crear asignaturas  coloquese en el perfil de líder siga 
+<img src="MA_GA1.gif" alt="GIFGA1" /></p>
+</li>
+<li>
+<p>Nos dirigimos al modulo matricula luego al menú instituto y elegimos carreras 
+<img src="MA_2.gif" alt="GIF2" /></p>
+</li>
+<li>
+<p>Nos dirigimos hacia la carrera que deseamos crear una asignatura (En este ejemplo seleccionamos Desarrollo de Software) y damos clic en el botón “Niveles Académicos”
+<img src="MA_3.gif" alt="GIF3" /> </p>
+</li>
+<li>
+<p>Seleccionamos el nivel que deseemos ver las asignaturas y escogemos el nivel y damos clic al botón “Asignaturas”
+<img src="MA_4.gif" alt="GIF4" /> </p>
+</li>
+<li>
+<p>Seleccionamos la asignatura que deseamos modificar.
+<img src="MA_5.gif" alt="GIF5" /> 
+Y nos mostrara una serie de opciones que podemos modificar en la asignatura.
+<img src="MA_IMG1.jpg" alt="IMG1" /></p>
+</li>
+</ol>
+<h2 id="opciones-de-modificación-o-creación-de-asignatura"><a class="header" href="#opciones-de-modificación-o-creación-de-asignatura"><strong>Opciones de modificación o creación de asignatura</strong></a></h2>
+<p>En el apartado codigo coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos modificar.
+<img src="MA_12.gif" alt="GIF12" /> </p>
+<p>Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas preprofesionales, inglés o titulación</p>
+<p><img src="MA_7.gif" alt="GIF7" /></p>
+<p>Unidad de Organización Curricular: elegiremos su es unidad básica, unidad profesional, unidad de titulación, complementarias o dualidad </p>
+<p><img src="MA_8.gif" alt="GIF8" /></p>
+<p>Área: Podrá escoger el área que se desempeñe la asignatura</p>
+<p><img src="MA_9.gif" alt="GIF9" /></p>
+<p>Eje de Formación: en esta opción podrá elegir entre: fundamentos teóricos, adaptación e innovación tecnológica, comunicación y lenguajes, integración de saberes, contextos y cultura y no definido.</p>
+<p><img src="MA_10.gif" alt="GIF10" /></p>
+<p>Tipo de Materia: Podremos escoger si la asignatura será, Normal, Dual teórica o Dual practica</p>
+<p><img src="MA_11.gif" alt="GIF11" /></p>
+<p>En las siguientes opciones tenemos: Horas Semanales Horas Docencia, Horas Practica, Horas Autónoma, % Nota del Nivel ( elegiremos el peso que tendrá la nota de la materia creada o modificada frente al proyecto integrador en caso de tener), estado puede ser activo o inactivo.</p>
+<p><img src="MA_IMG2.jpg" alt="IMG2" /></p>
+<p>Una vez hayamos llenado las opciones según el tipo de materia creada o modificada, podremos elegir si la materia tendrá “PRE-REQUISITOS” Y/O “CO Requisitos”
+<img src="MA_IMG3.jpg" alt="IMG3" /></p>
+<p>Una vez finalizado el proceso damos clic al botón “Guardar” y listo ha completado el proceso de crear una nueva asignatura o modificar una asignatura.
+<img src="MA_13.gif" alt="GIF13" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="registro-de-asistencia-en-el-sistema-siga"><a class="header" href="#registro-de-asistencia-en-el-sistema-siga"><strong>Registro de asistencia en el sistema SIGA</strong></a></h1>
+<p>Una vez que inicio sesión en el sistema SIGA.</p>
+<ol>
+<li>
+<p>Dirijase a la sección módulo y seleccione el menú docente.<br />
+<img src="RAN_1.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Seleccione el submenú &quot;Mi Docencia&quot; seguido del apartado Distributivo.
+<img src="RAN_dis.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Elija la fecha de registro, presione el botón registro de asistencia.
+<img src="RAN_3.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Coloque el tema y la observación del motivo para generar el registro de asistencia.
+<img src="RAN_4.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Seleccione las horas que estuvo ausente el estudiante.
+<img src="RAN_5.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Seleccione la causa por la que no estuvo el estudiante.
+<img src="RAN_6.1.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Una vez completado el proceso, haga click que el botón aceptar.
+<img src="RAN_7.gif" alt="gif" /></p>
+</li>
+</ol>
+<h1 id="registro-de-notas"><a class="header" href="#registro-de-notas"><strong>Registro de notas</strong></a></h1>
+<p>Realizamos los siguientes pasos.</p>
+<ol>
+<li>
+<p>Selecciones el submenú solicitudes.<br />
+<img src="RAN_1.1.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Haga click en el botón nuevo.<br />
+<img src="RAN_1.2.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Elija el tipo de solicitud.<br />
+<img src="RAN_1.3.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Seleccione la fecha que desea generar el registro, seguido del paralelo.<br />
+<img src="RAN_1.4.gif" alt="gif" /></p>
+</li>
+<li>
+<p>Presione el botón guardar. 
+<br><br />
+<img src="RAN_1.5.gif" alt="gif" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tipo-de-materias"><a class="header" href="#tipo-de-materias"><strong>Tipo de Materias</strong></a></h1>
+<ol>
+<li>
+<p>Diríjase al apartado superior derecha y seleccione su perfil y en el submenú e ingrese a &quot;Cambio de Instituto&quot;.<br />
+<img src="TDM_1.gif" alt="gif1" /> </p>
+</li>
+<li>
+<p>En perfil, seleccione &quot;Docente&quot; y presione &quot;Aceptar&quot;.<br />
+<img src="TDM_2.gif" alt="gif2" /> </p>
+</li>
+<li>
+<p>Diríjase a la sección &quot;Módulos&quot; en la parte superior izquierda e ingrese al módulo &quot;Matricula&quot; a continuación nos dirigimos a menú &quot;Parámetros&quot; submenú &quot;Tipos de Materia&quot;.<br />
+<img src="TDM_3.gif" alt="gif3" /> </p>
+</li>
+<li>
+<p>Observara el nombre del Instituto y los tipos de materia. 
+<img src="TDM_4.gif" alt="gif4" /> </p>
+</li>
+<li>
+<p>Seleccione un tipo de materia donde se le dará la opción de &quot;Modificar&quot; y &quot;Ver&quot;. 
+<img src="TDM_5.gif" alt="gif5" /> </p>
+<p>En la opción &quot;Modificar&quot; podrá editar el Tipo de Materia que selecciono. Los campos con (*) son obligatorios. 
+<img src="TDM_6.gif" alt="gif6" /> </p>
+<p>En la opción &quot;Ver&quot; podrá visualizar el estado que se encuentra el Tipo de materia que selecciono. </p>
+<p><img src="TDM_7.gif" alt="gif7" /> </p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-7"><a class="header" href="#preguntas-relacionadas-7"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Cómo visualizo un Tipo de Materia?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo módifico correctamente un Tipo de Materia?      </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="carga-de-notas"><a class="header" href="#carga-de-notas"><strong>Carga de Notas</strong></a></h1>
+<h2 id="la-carga-de-notas-en-el-sistema-siga-es-muy-sencillo-y-fácil-de-realizar"><a class="header" href="#la-carga-de-notas-en-el-sistema-siga-es-muy-sencillo-y-fácil-de-realizar"><strong>La carga de notas en el sistema SIGA, es muy sencillo y fácil de realizar.</strong></a></h2>
+<ol>
+<li>
+<p>Diríjase al módulo &quot;Docentes&quot;</p>
+<p><img src="CDN_NOTAS_AdobeExpress.gif" alt="GIF" /></p>
+</li>
+<li>
+<p>En el módulo &quot;Docentes&quot;
+seleccioné el sub modulo &quot;Distributivo&quot;</p>
+<p><img src="CDN_Menu.gif" alt="GIF_menu" /></p>
+</li>
+<li>
+<p>Diríjase al enlace  <strong>abierto</strong> de la asignatura  en la que desee digitar las notas.</p>
+<p><img src="CDN_Menuabierto.gif" alt="GIF_menuabierto" /></p>
+</li>
+<li>
+<p>Seleccione el botón <strong>guardar</strong> después de haber digitado las notas de cada uno de los estudiantes</p>
+<p><img src="CDN_Guardar.gif" alt="GIF_guardar" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-8"><a class="header" href="#preguntas-relacionadas-8"><strong>PREGUNTAS RELACIONADAS</strong></a></h2>
+<blockquote>
+<p><em>A que modulo tengo que dirigirme para cargar notas en el sistema</em> <strong>?</strong></p>
+</blockquote>
+<blockquote>
+<p><em>A que menú del Módulo seleccionado debo entrar para cargar notas</em> <strong>?</strong></p>
+</blockquote>
+<blockquote>
+<p><em>Cómo guardo las notas digitadas</em> <strong>?</strong></p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-para-actualizar-la-contraseña-de-otros-usuarios"><a class="header" href="#manual-para-actualizar-la-contraseña-de-otros-usuarios"><strong>Manual para actualizar la contraseña de otros usuarios</strong></a></h1>
+<ol>
+<li>
+<p>Para actualizar la contraseña de otros usuarios dirigase al modulo administracion 
+<img src="ACOU_1.gif" alt="Paso" /></p>
+</li>
+<li>
+<p>En el menu administracion ingrese en el submenu resetear clave.</p>
+<p><img src="ACOU_2.gif" alt="Paso" /></p>
+</li>
+<li>
+<p>Digite la cedula de la persona que desea reiniciar la contraseña.</p>
+<p><img src="ACOU_3.gif" alt="Paso" />
+Luego presione la tecla &quot;Tabulacion&quot;
+<img src="ACOU_4.gif" alt="Paso" /></p>
+</li>
+<li>
+<p>En el campo nueva clave borre la cedula y digite la nueva contraseña.</p>
+<p><img src="ACOU_5.gif" alt="Paso" />
+Luego de haber digitado la nueva clave, damos click en el boton regenerar clave. Y listo ha completado el cambiar de clave satisfactoriamente.
+<img src="ACOU_final.gif" alt="Paso" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="configurar-horarios"><a class="header" href="#configurar-horarios"><strong>Configurar Horarios</strong></a></h1>
+<p>Configurar horarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.</p>
+<p>Para ello realizaremos los siguientes pasos.</p>
+<ol>
+<li>Diríjase al menú de módulos y dar click en el Módulo &quot;Matrícula&quot;.
+<img src="CH_modulo.gif" alt="modulo" /></li>
+<li>Luego presione click en el menú &quot;Instituto&quot;, después dar click en sub menú &quot;Periodos&quot;.
+<img src="CH_periodo.gif" alt="periodo" /></li>
+<li>Seleccione el periodo que desea modificar, a continuación presione el botón &quot;Carreras&quot;.
+<img src="CH_carrera.gif" alt="carrera" /></li>
+<li>Seleccione la carrera que desea modificar y luego presione el botón &quot;Niveles Académicos&quot;.
+<img src="CH_nivelaca.gif" alt="nivelaca" /></li>
+<li>Seleccione el nivel académico en el que se encuentra la asignatura que desea configurar y presione el botón &quot;Asignaturas&quot;.
+<img src="CH_asignatura.gif" alt="asingaura" /></li>
+<li>Selecciones la asingatura a  configurar, posteriormente presione el botón &quot;Modificar&quot;.
+<img src="CH_modificar.gif" alt="modificar" /></li>
+<li>Se podrá visualizar un calendario y los paralelos de la asignatura seleccionada, confirme que seleccionó la opción correcta.
+<img src="CH_ventana.gif" alt="ventana" /></li>
+<li>Ubíquese en el paralelo que usted desea configurar y en la tabla &quot;Horario de clases&quot; puede realizar la configuracion por dias y horas que necesite modificar.
+<img src="CH_ubicarParalelo.gif" alt="ubicarParalelo" /></li>
+<li>Para que aparezca un nuevo menú presiona el botón de la sigla del día de la semana y seleeciona el horario que necesite.
+<img src="CH_sigla.gif" alt="sigla" /></li>
+<li>Realice los mismo pasos para todos los dias de la semana.</li>
+<li>Luego de terminar de configurar los horarios presione el botón &quot;Guardar&quot; y aparecerá un mensaje diciendo &quot;Proceso realizado con éxito&quot;.
+<img src="CH_guardar.gif" alt="guardar" /></li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="configurar-calendarios"><a class="header" href="#configurar-calendarios"><strong>Configurar Calendarios</strong></a></h1>
+<p>Configurar calendarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.</p>
+<p>A continuación realice los siguientes pasos para configurar el calendario.</p>
+<ol>
+<li>
+<p>Ubíquese en el  Calendario y desplácese a la &quot;Fecha de Inicio&quot; según necesite.
+<img src="CC_calendario.gif" alt="calendario" /></p>
+</li>
+<li>
+<p>Presione click en el día que necesite configurar.
+Se desplegará una ventana y seleccione el &quot;Tipo de Hito&quot; según necesite.
+<img src="CC_diaInicio.gif" alt="diaInicio" /></p>
+</li>
+<li>
+<p>Relice los mimos pasos para la &quot;Fecha Final&quot;.
+<img src="CC_diaFin.gif" alt="diaFin" /></p>
+</li>
+<li>
+<p>Por último presione el botón &quot;Gurdar&quot;.
+<img src="CC_guardarCalendar.gif" alt="guardarCalendar" /></p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="generar-reportes"><a class="header" href="#generar-reportes"><strong>Generar reportes</strong></a></h1>
+<h2 id="para-ejecutar-reportes-dentro-del-sistema-siga"><a class="header" href="#para-ejecutar-reportes-dentro-del-sistema-siga"><strong>Para ejecutar reportes dentro del sistema SIGA</strong></a></h2>
+<ol>
+<li>
+<p>Dirijase a la sección &quot;Módulos&quot; en la parte superior izquierda e ingrese al módulo &quot;Reportes&quot;.</p>
+<p><img src="GR_2.gif" alt="GIF" /></p>
+</li>
+<li>
+<p>En el menú de reportes presione dentro del submenú &quot;Ejecución de Reportes&quot;.</p>
+<p><img src="GR_3.gif" alt="GIF2" /></p>
+</li>
+<li>
+<p>Presione el botón &quot;listar valores&quot; el cual mostrara la lista de reportes, seleccione el reporte a generar y presione el botón &quot;seleccionar&quot; al reporte que desea generar.</p>
+<p><img src="GR_4.gif" alt="GIF3" /></p>
+</li>
+<li>
+<p>Cada reporte tiene sus respectivos filtros o campos de búsqueda, por ejemplo, el reporte &quot;ficha docente&quot; requiere ingresar el número de cédula. Ingrese el número de cédula del docente a continuación </p>
+<p><img src="GR_5.gif" alt="GIF4" /></p>
+</li>
+<li>
+<p>Seleccione el tipo de archivo que desee descargar como PDF o XLS y presione el botón &quot;Ejecutar&quot;.</p>
+<p><img src="GR_45.gif" alt="GIF11" /></p>
+</li>
+<li>
+<p>A continuación, se le descargara el reporte que generó.</p>
+<p><img src="GR_6.gif" alt="GIF5" /></p>
+<p><img src="GR_7.gif" alt="GIF6" /></p>
+<p>Otro ejemplo si desea generar otro reporte como &quot;DISTRIBUTIVO POR DOCENTE&quot; tiene un campo de búsqueda diferente en este caso son el Periodo electivo y la cédula. </p>
+</li>
+<li>
+<p>Seleccione el periodo que usted desea con el botón lista de valores o inserte el código del periodo electivo</p>
+<p><img src="GR_8.gif" alt="GIF7" /></p>
+</li>
+<li>
+<p>Ingrese el número de cédula y el tipo de archivo en que desee descargar como PDF o XLS y presione &quot;Ejecutar&quot;</p>
+<p><img src="GR_9.gif" alt="GIF8" /></p>
+</li>
+</ol>
+<p>Generar MATRIZ DE SEGUNDAS Y TERCERAS</p>
+<ol>
+<li>
+<p>Seleccione el periodo que usted desea con el botón lista de valores o inserte el código del periodo electivo</p>
+<p><img src="GR_10.gif" alt="GIF9" /></p>
+</li>
+<li>
+<p>Ingrese el código de la carrera y el tipo de archivo que desee descargar como PDF o XLS, y presione &quot;Ejecutar&quot;</p>
+<p><img src="GR_11.gif" alt="GIF10" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-9"><a class="header" href="#preguntas-relacionadas-9"><strong>Preguntas relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Como descargo el reporte?</p>
+</blockquote>
+<blockquote>
+<p>¿Donde imprimo el reporte?           </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="registro-de-docentes"><a class="header" href="#registro-de-docentes"><strong>Registro de Docentes</strong></a></h1>
+<p>Registrar docentes en el sistema SIGA es un proceso muy fácil, realice estos sencillos pasos.<br />
+Para realizar los siguientes pasos deber ingresar con el perfil de &quot;Lider SIGA&quot;.</p>
+<ol>
+<li>
+<p>Diríjase al menú de módulos y dar click en el Módulo Docente.</p>
+</li>
+<li>
+<p>Dentro del Módulo Docente, dé click en el submenú Docente.<br />
+<img src="RD_1.gif" alt="gif1" /></p>
+</li>
+<li>
+<p>Aparecerá un listado de todos los docentes creados en el sistema SIGA.</p>
+</li>
+<li>
+<p>Desplácese hasta el final de la pantalla y presione en el botón &quot;Nuevo&quot;
+<img src="RD_listado.gif" alt="listado" /> </p>
+</li>
+<li>
+<p>Llene el formulario con los datos que se solicita (Los campos marcados con asterisco son obligatorios).<br />
+<img src="RD_2.gif" alt="gif2" /></p>
+</li>
+<li>
+<p>Para subir su foto al formulario presione un click en el botón &quot;Cargar Foto&quot; posteriormente dé click en botón &quot;Seleccionar&quot;. Aparecerá una ventana donde podra buscar su foto y seleccionarla, finalmente pulse el botón aceptar para subir la imagen.
+<img src="RD_foto.gif" alt="foto" /></p>
+</li>
+<li>
+<p>En el campo &quot;Tipo de Documento&quot; puede seleccionar entre Cédula y Pasaporte, luego ingrese el número de documento de la misma.
+<img src="RD_campo_1.gif" alt="campo_1" /></p>
+</li>
+<li>
+<p>En el siguiente campo ingrese sus &quot;Nombres&quot; y &quot;Apellidos&quot; según el orden que se le indica.<br />
+<img src="RD_campoNombre.gif" alt="campoNombre" /></p>
+</li>
+<li>
+<p>A continuación elija su &quot;Sexo&quot; y &quot;Género&quot;.<br />
+<img src="RD_campoSexo.gif" alt="campo_Sexo" /></p>
+</li>
+<li>
+<p>Al dar click en el siguiente campo &quot;Fecha de Nacimiento&quot; se desplegará un mini calendario donde podrá buscar su fecha de nacimiento.<br />
+<img src="RD_fechadenac.gif" alt="fechaNacimiento" /></p>
+</li>
+<li>
+<p>Después seleccione su &quot;Tipo de Sangre&quot;.
+<img src="RD_tipoSangre.gif" alt="tipoSangre" /></p>
+</li>
+<li>
+<p>Seleccione su &quot;Estado Civil&quot;.
+<img src="RD_estadoCivil.gif" alt="estadoCivil" /></p>
+</li>
+<li>
+<p>A continuación seleccione su &quot;Etnia&quot; y &quot;Pueblo/Nacionalidad&quot; (Dependiendo de la etnia seleccionada tendrá mas opciones para el campo &quot;Pueblo/Nacionalidad&quot;).<br />
+<img src="RD_etnia.gif" alt="etnia" /></p>
+</li>
+<li>
+<p>En el campo &quot;Tiene Discapacidad&quot; seleccione la opción Si o NO, en el caso de tener alguna discapcidad podrá describir el tipo de la misma.<br />
+<img src="RD_discapacidad.gif" alt="discapacidad" /></p>
+</li>
+<li>
+<p>Posteriormente digite su &quot;Porcentaje de Discapacidad&quot; y &quot;Número de Carnet&quot;.
+<img src="RD_pocentajeDis.gif" alt="porcentaje" /> </p>
+</li>
+<li>
+<p>A continuación seleccione el &quot;Tipo de Enfermedad Catastrófica&quot;. 
+<img src="RD_tipoEnfermedad.gif" alt="tipoEnfermedad" /></p>
+</li>
+<li>
+<p>Ahora llene el formulario Datos de Contacto.</p>
+</li>
+<li>
+<p>Elija su &quot;País de nacimiento&quot; y &quot;País de Nacionalidad&quot;.
+<img src="RD_paisNaci.gif" alt="paisNacimiento" /></p>
+</li>
+<li>
+<p>En el campo &quot;Cantón de Nacimiento&quot; presione click en el botón con el simbolo de una lupa (listar valores), luego se desplegará una ventana donde puede buscar la provincia y el cantón.
+Posteroirmente al seleccionar la provincia y cantón se llenará automaricamente el campo&quot;Provincia de Nacimiento&quot;.<br />
+<img src="RD_provinciaP.gif" alt="provincia" /></p>
+</li>
+<li>
+<p>A continuación seleccione el &quot;País de Residencia&quot; y &quot;Provincia de Sufragio&quot;.
+<img src="RD_sufragio.gif" alt="paisResidencia" /></p>
+</li>
+<li>
+<p>Seleccione el &quot;Cantón de Residencia&quot; después automáticamente se llenará el campo &quot;Provincia de Residencia.
+<img src="RD_cantonResi.gif" alt="cantonResidencia" /></p>
+</li>
+<li>
+<p>Llene los siguientes campos &quot;Calle Principal, Secuandaria&quot; y &quot;Número de Casa y Código Postal&quot;.<br />
+<img src="RD_direccion.gif" alt="direccion" /></p>
+</li>
+<li>
+<p>Luego escriba los siguientes datos de contacto que se le solicita.<br />
+<img src="RD_datoContacto1.gif" alt="datoContacto1" />
+<img src="RD_datoContacto2.gif" alt="datoContacto2" /></p>
+</li>
+<li>
+<p>Ahora llene los Datos Institucionales.</p>
+</li>
+<li>
+<p>En el campo &quot;Ingreso por Concurso de Méritos y Oposción&quot; seleccione la opción SI o NO, según corresponda.<br />
+<img src="RD_Ingreso.gif" alt="ingreso" /></p>
+</li>
+<li>
+<p>En el siguiente campo &quot;Fecha de Ingreso a la Institución&quot; seleccione la fecha mediante el mini calendario.
+<img src="RD_fechaEntrada.gif" alt="fechaEntrada" /></p>
+</li>
+<li>
+<p>Igualmente en el campo &quot;Fecha de Salida de la Institución&quot; seleccione la fecha mediante el mini calendario.</p>
+</li>
+<li>
+<p>A continuación en el campo &quot;Relación laboral&quot; seleccione una de las opciones que se desplega en el campo.<br />
+<img src="RD_relacion.gif" alt="relacion" /></p>
+</li>
+<li>
+<p>Luego seleccione el &quot;Tiempo de Dedicación&quot;.
+<img src="RD_dedicacion.gif" alt="dedicacion" /></p>
+</li>
+<li>
+<p>Después seleccione el &quot;Tipo de Nivel de Formación&quot;. 
+<img src="RD_nivel.gif" alt="nivel" /></p>
+</li>
+<li>
+<p>Posteriormente escriba su &quot;Título&quot;.
+<img src="RD_titulon1.gif" alt="titulo" /></p>
+</li>
+<li>
+<p>En el campo &quot;Tipo de Escalafón&quot; selecione una las opciones que le da el campo.
+<img src="RD_escalafon.gif" alt="escalafon" /></p>
+</li>
+<li>
+<p>Ahora en el campo &quot;Cargo Directivo del Docente&quot; selecione una de las opciones que le da el campo.
+<img src="RD_directivo.gif" alt="directivo" /></p>
+</li>
+<li>
+<p>Luego en el campo &quot;Grado Ocupacional&quot; seleccione una de las opciones que le da el campo.
+<img src="RD_gradoOcupacional.gif" alt="gradoOcupacional" /></p>
+</li>
+<li>
+<p>Escriba su &quot;Salario Mensual&quot;.
+<img src="RD_salario.gif" alt="salario" /></p>
+</li>
+<li>
+<p>Después en el campo &quot;Está en Período Sabático&quot; selecione una de las opciones que le da el campo.</p>
+</li>
+<li>
+<p>A continuación en el campo &quot;Fecha de Inicio de Período Sabático&quot; selecione una de las opciones que le da el campo.</p>
+</li>
+<li>
+<p>Ahora en el campo &quot;Estás Cursando Estudios&quot; selecione una de las opciones que le da el campo.
+<img src="RD_cursando.gif" alt="cursando" /></p>
+</li>
+<li>
+<p>A continuación escriba la &quot;Institución donde cursa estudios.
+<img src="RD_dondeCursa.gif" alt="donde" /></p>
+</li>
+<li>
+<p>Después seleccione el &quot;País Donde Cursa Estudios&quot;.
+<img src="RD_paisCursa.gif" alt="paisDondeCusa" /></p>
+</li>
+<li>
+<p>Escriba el &quot;Título a Obtener&quot;.
+<img src="RD_tituloObtener.gif" alt="tituloObtener" /></p>
+</li>
+<li>
+<p>En el campo &quot;Posee Beca&quot; seleccione la opción SI o NO.</p>
+</li>
+<li>
+<p>En caso de haber seleccionado la opcion &quot;SI&quot; podrá seguir llenando los siguientes campos. 
+<img src="RD_beca.gif" alt="beca" /></p>
+</li>
+<li>
+<p>Finalmente para guardar los datos ingresados  presione el botón &quot;Guardar&quot;.<br />
+<img src="RD_guardarCambios.gif" alt="guardarCambios" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-10"><a class="header" href="#preguntas-relacionadas-10"><strong>Preguntas Relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Cómo registrar un nuevo docente?</p>
+</blockquote>
+<blockquote>
+<p>¿En qué módulo ingresar para registrar un docente?</p>
+</blockquote>
+<blockquote>
+<p>¿Cúales son los pasos para registrar un nuevo docente?</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="manual-añadir-entidades-publicasprivadas-1"><a class="header" href="#manual-añadir-entidades-publicasprivadas-1"><strong>Manual Añadir Entidades Publicas/Privadas</strong></a></h1>
+<h2 id="para-añadir-entidades-publicas-o-privadas-1"><a class="header" href="#para-añadir-entidades-publicas-o-privadas-1"><strong>Para añadir entidades Publicas o Privadas</strong>.</a></h2>
+<ol>
+<li>
+<p>Ingrese en la sección <strong>Módulos</strong>, en la esquina superior izquierda y elija en el módulo <strong>Académico</strong>.</p>
+<p><img src="AEPP_M%C3%B3dulo.gif" alt="Módulo" /></p>
+<p><img src="AEPP_Acad%C3%A9mico.gif" alt="Módulo" /></p>
+</li>
+<li>
+<p>En el <strong>Módulo de Académico</strong> elija el submenú <strong>Administración</strong>.</p>
+<p><img src="AEPP_Administraci%C3%B3n.gif" alt="Académico" /></p>
+</li>
+<li>
+<p>Ingrese en el submenú <strong>Entidades Públicas Privadas</strong>.</p>
+<p><img src="AEPP_publi_priv.gif" alt="Entidades" /></p>
+</li>
+<li>
+<p>Se podrá revisar los datos de las empresas y las personas a las que se podrá contactar.</p>
+<p><img src="AEPP_Empresas.gif" alt="Empresas" /></p>
+</li>
+<li>
+<p>Presione el <strong>Bóton Nuevo</strong> si desea agregar una nueva empresa .</p>
+<p><img src="AEPP_Nuevo.gif" alt="Nuevo" /></p>
+<p>Le aparecerá un mensaje de <strong>Guardado Exitoso</strong></p>
+</li>
+<li>
+<p>Presione el <strong>Botón Modificar</strong> si desea actualizar los datos de la empresa.</p>
+<p><img src="AEPP_Modificar.gif" alt="Modificar" /></p>
+</li>
+</ol>
+<h2 id="preguntas-relacionadas-11"><a class="header" href="#preguntas-relacionadas-11"><strong>Preguntas Relacionadas</strong></a></h2>
+<blockquote>
+<p>¿Dónde puedo cambiar datos de empresas?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo cambiar mis datos de empresa?</p>
+</blockquote>
+<blockquote>
+<p>¿Qué debo poner para cambiar mis datos de empresa?</p>
+</blockquote>
+<blockquote>
+<p>¿Cómo actualizar los datos empresariales?</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
