@@ -1,25 +1,10 @@
 # Summary
-[Introducción](introduccion.md)
-
-
-# Perfil Estudiantes
-
-- [Recuperar contraseña]()
-- [Solicitud de matricula]()
-- [Mi semestre]()
-- [Actualizar ficha personal](Actualizar_Ficha_Personal_E.md)
-
-
+[Introducción](introduccion.md) 
 # Perfil Docentes
 
 - [Iniciar sesión](inicioSesion.md)
 - [Interfaz de usuario](Interfaz_de_Usuario.md)
-- [Recuperar contraseña]()
-- [Actualizar ficha docente](Ficha_docente.md)
-- [Distributivo]()
-- [Solicitudes]()
-- [Reportes]()
-- [Cambio de clave]()
+- [Cambiar ficha docente](Ficha_docente.md)
 - [Crear asistencia](Crear_asistencia.md)
 - [Cambiar Perfil](Cambiar_de_perfil.md)
 - [Actualizar paralelo](Actualizar_Paralelo.md)
@@ -31,15 +16,12 @@
 - [Registro de asistencia y notas](Registro_de_notas_y_asistencia.md)
 - [Tipos de materias](tipo_de_materiaas.md)
 
-# Perfil Coodinador
-- [Periodos]()
-- [Carreras]()
-- [Maestro de matricula]()
-- [Maestro Paralelos]()
-- [Maestro Notas]()
-    - [Carga de notas](carga_de_notas.md)
-- [Maestro de solicitudes]()
-- [Reportes]()
+
+# Perfil Estudiantes
+- [Actualizar ficha personal](Actualizar_Ficha_Personal_E.md)
+- [Recuperar contraseña]()
+- [Solicitud de matricula]()
+- [Mi semestre]()
 
 # Perfil Revisor
 - [Maestro de matricula]()
@@ -60,7 +42,7 @@
 - [Lista de correos]()
 - [Ingreso de con-validación reingresos]()
 - [Reportes]()
-    
+    - [Carga de notas](carga_de_notas.md)
     - [Generar reportes](Generar_reportes.md)
 - [Dashboard]()
 - [Docentes]( )
