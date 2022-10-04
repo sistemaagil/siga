@@ -28,7 +28,11 @@
 
         ![gif6](UA_paso7.gif)
 
+## **Preguntas relacionadas**
 
+>¿Es necesario un coordinador al crear una unidad administrativa ??   
+                                       
+>¿Es posible modificar los datos de una unidad administrativa?      
  
 
 
