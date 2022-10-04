@@ -1,0 +1,6 @@
+[book]
+authors = ["Lenin Montalvo"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ejemplo_manualSiga"
