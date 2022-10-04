@@ -6,7 +6,7 @@
 
 - [Recuperar contraseña]()
 - [Solicitud de matricula]()
-- [Mi semestre](./mi_semestre/mi_semestre.md)
+- [Mi semestre](mi_semestre/mi_semestre.md)
 - [Actualizar ficha personal](./Ficha_Personal/Actualizar_Ficha_Personal_E.md)
 
 
@@ -15,7 +15,7 @@
 - [Iniciar sesión](./Iniciar_sesion_Actualizado/inicioSesion.md)
 - [Interfaz de usuario](./Interfaz_de_Usuario/Interfaz_de_Usuario.md)
 - [Recuperar contraseña]()
-- [Actualizar ficha docente](./Ficha_docente.md)
+- [Actualizar ficha docente](Cambiar_ficha_docente/Ficha_docente.md)
 - [Cargar distributivo](./Consultar_distributivo/Consultar_distributivo.md)
 - [Solicitudes]()   
 - [Generar reportes](./Generar_reportes/Generar_reportes.md)
