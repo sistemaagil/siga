@@ -1,6 +1,6 @@
 # Summary
 [Introducción](./Introduccion/introduccion.md)
-
+[Diagrama General](./DigramaGeneral/DiagramaGeneral.md)
 
 # Perfil Estudiantes
 
