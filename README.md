@@ -22,3 +22,8 @@ Elaborado por los estudiantes del Primer semestre de la carrerra de Desarrollo d
 Direccionado por:
             Mgs. Yogledis Herrera  
 Patrocinado por: Sistemas Àgiles
+<br>
+<br>
+<br>
+
+Presione [Click Aquí](http://sistemaagil.github.io/siga/)  para ver el manual del **Sistema SIGA**
