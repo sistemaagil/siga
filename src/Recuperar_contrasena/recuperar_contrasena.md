@@ -1,13 +1,13 @@
 
 # **Recuperar Contraseña**
 
-1. Llene el siguiente formulario [https://forms.gle/jxRbJ592Q1Zimzqd9 ](https://forms.gle/jxRbJ592Q1Zimzqd9 )
+1. Llene el siguiente formulario.  [https://forms.gle/jxRbJ592Q1Zimzqd9 ](https://forms.gle/jxRbJ592Q1Zimzqd9 )
 ![Gif01](GIFRC2.gif)
 
-3. Una vez completo el formulario envíelo
+3. Una vez completo el formulario envíelo.
 ![Gif01](GIFRC3.gif)
 
-4. Su formulario será revisado por el personal de soporte técnico 
+4. Su formulario será revisado por el personal de soporte técnico. 
 
 5.  Le llegará un mensaje a su correo institucional,  en donde encontrará su usuario y contraseña.
 
