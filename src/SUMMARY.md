@@ -5,9 +5,10 @@
 # Perfil Estudiantes
 
 - [Recuperar contraseña](./Recuperar_contrasena/recuperar_contrasena.md)
-- [Solicitud de matricula](./Solicitud_de_matricula/solicitud_de_matricula.md)
-- [Mi semestre](mi_semestre/mi_semestre.md)
 - [Actualizar ficha personal](./Ficha_Personal/Actualizar_Ficha_Personal_E.md)
+- [Solicitud de matricula](./Solicitud_de_matricula/solicitud_de_matricula.md)
+- [Información del Estudiante](mi_semestre/mi_semestre.md)
+
 
 
 # Perfil Docentes
@@ -22,11 +23,12 @@
 - [Cambio de clave]()
 - [Crear asistencia](Crear_asistencia/Crear_asistencia.md)
 - [Cambiar Perfil](./Cambiar_perfil/Cambiar_de_perfil.md)
+- [Crear paralelo](./Crear_Paralelo/Crear_Paralelo.md)
 - [Actualizar paralelo](./Actualizar_Paralelo/Actualizar_Paralelo.md)
 - [Registro de asistencia y notas](./Registro_de_asistencia_y_notas/Registro_de_notas_y_asistencia.md)
 - [Tipos de materias](./Tipo_de_materias/tipo_de_materiaas.md)
 
-# Perfil Coodinador
+# Perfil Coordinador
 
 
 # Periodos
