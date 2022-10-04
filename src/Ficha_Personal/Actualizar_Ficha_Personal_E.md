@@ -31,7 +31,9 @@ Presione [Click Aquí](https://youtu.be/T1JYsAHXdD0) para ver Video Demostrativo
 ![Gif4](FP_4.gif)
 </center>
 
- En el campo de discapacidad en el caso no poseer se deja marcado el valor podrá pasar al siguiente campo de enfermedades catastróficas, si tiene alguna discapacidad tendrá que seleccionar el valor si se habilitaran los campos: tipo de discapacidad, porcentaje de discapacidad y número de carne en caso de no contar con el carnet tendrá que seleccionar que no tiene una discapacidad y seleccionar una enfermedad catastrófica o cuando se comunique con docente con usted poderle indicar la particularidad de su caso.
+ En el campo de discapacidad en el caso no poseer se deja marcado el valor y podrá pasar al siguiente campo de enfermedades catastróficas. 
+ 
+ *Si tiene alguna discapacidad tendrá que seleccionar y se habilitaran los campos: tipo de discapacidad, porcentaje de discapacidad y número del carnet, en caso de no contar con el carnet tendrá que seleccionar que no tiene una discapacidad y seleccionar una enfermedad catastrófica o cuando se comunique con docente con usted poderle indicar la particularidad de su caso.
 <center>
 
 ![Gif5](FP_5.gif)
