@@ -1,4 +1,4 @@
-# **Instituto Superioir Tecnológico Turismo y Patrimonio Yavirac**
+# **Instituto Superior Tecnológico Turismo y Patrimonio Yavirac**
 ## **Introducción**
 
  El IST Yavirac les presenta el manual de procedimiento para el uso del sistema SIGA, donde se pretende socialar los procesos de la plataforma, con el objetivo de que toda comunidad Yavirac tengan conocimiento sobre el uso del mismo.  
