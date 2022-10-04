@@ -15,13 +15,13 @@
 5. Seleccione un tipo de materia donde se le dará la opción de "Modificar" y "Ver". 
 ![gif5](TDM_5.gif) 
 
-    * En la opción "Modificar" podrá editar el Tipo de Materia que selecciono. Los campos con (*) son obligatorios. 
+* En la opción "Modificar" podrá editar el Tipo de Materia que selecciono. Los campos con (*) son obligatorios. 
 
-    ![gif6](TDM_6.gif) 
+![gif6](TDM_6.gif) 
 
-    * En la opción "Ver" podrá visualizar el estado que se encuentra el Tipo de materia que selecciono. 
+* En la opción "Ver" podrá visualizar el estado que se encuentra el Tipo de materia que selecciono. 
 
-    ![gif7](TDM_7.gif) 
+![gif7](TDM_7.gif) 
 
 ## **Preguntas relacionadas**
 
