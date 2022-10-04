@@ -29,26 +29,23 @@
 # Perfil Coodinador
 
 
-- [Periodos]()
-    - [Crear período académico](./Periodo_Academico/Crear_periodoAcademico/crear_periodoAca.md)
-    - [Modificar período académico](./Periodo_Academico/Modificar_periodosAcademicos/modificar_periodosAca.md)
-    - [Visualizar período académico](./Periodo_Academico/Visualizar_periodosAcademico/visualizar_periodosAca.md)
-    - [Eliminar período académico](./Periodo_Academico/Eliminar_periodoAcademico/eliminar_periodoAca.md)
-    - [Cerrar período académico](./Periodo_Academico/Cerrar_periodoAcademico/cerrar_periodoAca.md)
-    - [Ver carreras de un período académico](./Periodo_Academico/Carreras_periodosAcademico/carreras_periodosAca.md)  
+# Periodos
+- [Crear período académico](./Periodo_Academico/Crear_periodoAcademico/crear_periodoAca.md)
+ - [Modificar período académico](./Periodo_Academico/Modificar_periodosAcademicos/modificar_periodosAca.md)
+- [Visualizar período académico](./Periodo_Academico/Visualizar_periodosAcademico/visualizar_periodosAca.md)
+- [Eliminar período académico](./Periodo_Academico/Eliminar_periodoAcademico/eliminar_periodoAca.md)
+- [Cerrar período académico](./Periodo_Academico/Cerrar_periodoAcademico/cerrar_periodoAca.md)
+ - [Ver carreras de un período académico](./Periodo_Academico/Carreras_periodosAcademico/carreras_periodosAca.md)  
 
-- [Carreras]()
-    - [Cambiar código de asignatura](./Cambiar_codigo_de_Asignaturas/Cambiar_codigo_de_carreras.md)
-    - [Crear asignatura](./Generar_asignaturas/Generar_asignaturas.md)
-    - [Modificar asignatura](./Modificar_asignatura/Modificar_asignatura.md)
-    - [Eliminar asignatura](./Eliminar_asignatura/Eliminar_asignatura.md)
-
-
-
+# Carreras
+- [Cambiar código de asignatura](./Cambiar_codigo_de_Asignaturas/Cambiar_codigo_de_carreras.md)
+- [Crear asignatura](./Generar_asignaturas/Generar_asignaturas.md)
+- [Modificar asignatura](./Modificar_asignatura/Modificar_asignatura.md)
+- [Eliminar asignatura](./Eliminar_asignatura/Eliminar_asignatura.md)
 - [Maestro Paralelos](./Maestro_paralelos/Maestro_paralelos.md)
-- [Maestro Notas]()
-    - [Consultar notas](./Maestro_notas_consulta_notas/Maestro_notas_consulta_notas.md)
-    - [Pasar notas](./Maestro_notas_pasar_notas/Maestro_notas_pasar_notas.md)
+# Maestro Notas
+- [Consultar notas](./Maestro_notas_consulta_notas/Maestro_notas_consulta_notas.md)
+- [Pasar notas](./Maestro_notas_pasar_notas/Maestro_notas_pasar_notas.md)
 - [Generar reportes](./Generar_reportes/Generar_reportes.md)
 
 # Perfil Revisor
@@ -59,9 +56,9 @@
 - [Estudiantes IST](./Estudiantes_ITS//ConsultaEstudiantes.md)
 - [Centros]()
 - [Campus]()
-- [Turnos para horarios]()
-    - [Configurar horarios](./Configurar_Horarios/conf_horarios.md)
-    - [Configurar Calendarios](./Configurar_Calendario/conf_calendario.md)
+# Turnos para horarios
+- [Configurar horarios](./Configurar_Horarios/conf_horarios.md)
+- [Configurar Calendarios](./Configurar_Calendario/conf_calendario.md)
 - [Personal administrativo](./Personal_administrativo/Personal_administrarivo.md)
 - [Unidades Administrativas](./ManualUnidadesAdministrativas/Unidades_administrativas.md)
 - [Maestro de asignaturas]()
