@@ -4,7 +4,7 @@
 
 # Perfil Estudiantes
 
-- [Recuperar contraseña]()
+- [Recuperar contraseña](./Recuperar_contrasena/recuperar_contrasena.md)
 - [Solicitud de matricula]()
 - [Mi semestre](mi_semestre/mi_semestre.md)
 - [Actualizar ficha personal](./Ficha_Personal/Actualizar_Ficha_Personal_E.md)
