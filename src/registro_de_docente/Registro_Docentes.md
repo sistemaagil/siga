@@ -1,6 +1,7 @@
 # **Registro de Docentes**
 
-Registrar docentes en el sistema SIGA es un proceso muy fácil, realice estos sencillos pasos.  
+Registrar docentes en el sistema SIGA es un proceso muy fácil, realice estos sencillos pasos.   
+Presione [Click Aquí](https://youtu.be/uvDq7pSn1_g) para ver Video Demostrativo. 
 Para realizar los siguientes pasos deber ingresar con el perfil de "Lider SIGA".
 
 1. Diríjase al menú de módulos y dar click en el Módulo Docente.  

@@ -1,6 +1,8 @@
 # **Configurar Horarios**  
 Configurar horarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.  
-  
+<br>
+
+Presione [Click Aquí](https://youtu.be/ecvf9x7-6f4) para ver Video Demostrativo.    
 Para ello realizaremos los siguientes pasos.
 
 1. Diríjase al menú de módulos y dar click en el Módulo "Matrícula".

@@ -1,4 +1,7 @@
-# **Consulta de Notas**
+# **Consulta de Notas**  
+<br>
+
+Presione [Click Aquí](https://youtu.be/HJK7qbdWcUk) para ver Video Demostrativo  
 Para consultar las notas en el sistema. Realice los siguientes pasos.
 
 1. Dirijase a la parte superior izquierda y seleccione el módulo **Docentes**.

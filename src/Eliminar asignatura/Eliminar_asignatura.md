@@ -1,5 +1,7 @@
 # **Manual para eliminar asignaturas** 
+<br>
 
+Presione [Click Aquí](https://youtu.be/IJCUgMVwHeM) para ver Video Demostrativo. 
 
 1. Para poder eliminar asignaturas coloquese en el perfil de líder siga y nos dirigimos al módulo matrícula.
 

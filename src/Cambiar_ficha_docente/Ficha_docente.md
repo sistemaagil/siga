@@ -1,7 +1,7 @@
 # Manual Actualizar Ficha del Docente
 
 ## Para actualizar sus datos personales como **Docente**
-
+ 
 1. Ingrese en la sección **Módulos**, en la esquina superior izquierda y elija en el módulo **Docentes**.
 
     ![Módulo](CFD_Módulo.gif)

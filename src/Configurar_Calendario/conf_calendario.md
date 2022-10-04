@@ -1,5 +1,6 @@
 # **Configurar Calendarios** 
-Configurar calendarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.     
+Configurar calendarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.  
+Presione [Click Aquí](https://youtu.be/6vfY4bdDGEk) para ver Video Demostrativo.   
 
 A continuación realice los siguientes pasos para configurar el calendario.
 1. Ubíquese en el  Calendario y desplácese a la "Fecha de Inicio" según necesite.

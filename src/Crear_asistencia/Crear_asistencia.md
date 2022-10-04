@@ -1,7 +1,7 @@
 # **Crear asistencia**
 
 ## **Para crear asistencia dentro del sistema SIGA.**
-
+ 
 1. Diríjase al apartado superior derecha y seleccione su perfil y en el submenú e ingrese a "Cambio de Instituto". 
 
     ![gif1](CA_paso1.gif)

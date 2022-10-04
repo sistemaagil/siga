@@ -1,7 +1,9 @@
 # **Pasar Notas**
 Para poder ingresar las notas.
 Realice los siguites pasos.
+<br>
 
+Presione [Click Aquí](https://youtu.be/zQvmJmEAlIU) para ver Video Demostrativo
 1. Dirijase a la parte superior izquierda y seleccione el módulo **Docentes**.
 ![Paso 1](PN-paso1.gif)
 2. Seleccione el menú **Mi Docencia** y elija el submenú **Distrivutivo**.

@@ -5,7 +5,7 @@
 # Perfil Estudiantes
 
 - [Recuperar contraseña](./Recuperar_contrasena/recuperar_contrasena.md)
-- [Solicitud de matricula]()
+- [Solicitud de matricula](./Solicitud_de_matricula/solicitud_de_matricula.md)
 - [Mi semestre](mi_semestre/mi_semestre.md)
 - [Actualizar ficha personal](./Ficha_Personal/Actualizar_Ficha_Personal_E.md)
 
@@ -14,7 +14,7 @@
 
 - [Iniciar sesión](./Iniciar_sesion_Actualizado/inicioSesion.md)
 - [Interfaz de usuario](./Interfaz_de_Usuario/Interfaz_de_Usuario.md)
-- [Recuperar contraseña]()
+- [Recuperar contraseña](./Recuperar_contrasena/recuperar_contrasena.md)
 - [Actualizar ficha docente](Cambiar_ficha_docente/Ficha_docente.md)
 - [Cargar distributivo](./Consultar_distributivo/Consultar_distributivo.md)
 - [Solicitudes]()   

@@ -1,6 +1,6 @@
 
 # **Recuperar Contraseña**
-
+ 
 
 1. Ingrese al sistema SIGA 
 y seleccione la opción"¿olvidó su contraseña?"

@@ -1,6 +1,8 @@
 # **Registro de asistencia en el sistema SIGA**
+<br>
 
-Una vez que inicio sesión en el sistema SIGA.
+Presione [Click Aquí](https://youtu.be/qvGZcEDC_Nw) para ver Video Demostrativo
+Una vez que inicio sesión en el sistema SIGA.  
 1. Dirijase a la sección módulo y seleccione el menú docente.   
     ![gif](RAN_1.gif)  
 
