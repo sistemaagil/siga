@@ -1,4 +1,4 @@
-## **Configurar Horarios**  
+# **Configurar Horarios**  
 Configurar horarios sirve para que se puedan generar las asistencias y el ingreso de notas para la materia que se requiera.  
   
 Para ello realizaremos los siguientes pasos.

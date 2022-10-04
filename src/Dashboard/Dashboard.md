@@ -3,7 +3,6 @@
 1. Dirijase a la parte superior izquierda y seleccione el módulo **Reportes**.
 ![Paso 1](DB-paso1.gif)
 2. Seleccione el submenú **Dashboard** y elija Dashboard.
-
 ![Paso 2](DB-paso2.gif)
 
 | Debe seleccionar el tipo de Dashboard que desee visualizar.
@@ -16,5 +15,6 @@
 8. Elegir Matrícula.
 9. Elegir seguimiento de matrícula. 
 
+## **Preguntas Relacionadas**
 >¿Cómo ver reportes?
 >¿En dónde entro para ver mis reportes?

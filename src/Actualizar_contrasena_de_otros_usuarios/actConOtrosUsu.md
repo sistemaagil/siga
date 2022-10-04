@@ -1,4 +1,7 @@
 # **Manual para actualizar la contraseña de otros usuarios**
+<br>
+
+Presione [Click Aquí](https://www.youtube.com/watch?v=JKhc79c-A_E) para ver Video Demostrativo.  
 
 1. Para actualizar la contraseña de otros usuarios dirigase al modulo administracion 
     ![Paso](ACOU_1.gif)
