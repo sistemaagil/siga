@@ -1,7 +1,7 @@
 # **Manual para crear asignaturas** 
 
 
-1. Para poder crear asignaturas  coloquese en el perfil de líder siga 
+1. Para poder crear asignaturas  colóquese en el perfil de líder siga 
   ![GIFGA1](MA_GA1.gif)
 
 2. Nos dirigimos al modulo matricula luego al menú instituto y elegimos carreras 
@@ -20,10 +20,10 @@
 ![IMG1](MA_IMG1.jpg)
 
 ## **Opciones de modificación o creación de asignatura**
-  En el apartado codigo coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos modificar.
+  En el apartado código coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos modificar.
 ![GIF12](MA_12.gif) 
 
- Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas preprofesionales, inglés o titulación
+ Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas pre-profesionales, inglés o titulación
 
 ![GIF7](MA_7.gif)
 
@@ -52,4 +52,7 @@ Una vez hayamos llenado las opciones según el tipo de materia creada o modifica
 
  Una vez finalizado el proceso damos clic al botón “Guardar” y listo ha completado el proceso de crear una nueva asignatura o modificar una asignatura.
 ![GIF13](MA_13.gif)
+
+* ## **Diagrama de Modificar asignatura**
+* ![Diagrama2](26%2C27y28.CrearModificarEliminarAsignatura.png)  
 

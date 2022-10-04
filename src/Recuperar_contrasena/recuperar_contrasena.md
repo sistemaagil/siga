@@ -9,7 +9,7 @@
 
 4. Su formulario será revisado por el personal de soporte técnico. 
 
-5.  Le llegará un mensaje a su correo institucional,  en donde encontrará su usuario y contraseña.
+5. Le llegará un mensaje a su correo institucional,  en donde encontrará su usuario y contraseña.
 
 
 6. Todo listo para Ingresar al sistema SIGA !
@@ -21,3 +21,7 @@
 > ¿Como ingresar al sistema SIGA?
 
 > ¿Como cerrar sesión? 
+
+## **Diagrama de Recuperar contraseña**
+* ![Diagrama2](7.RecuperarContrase%C3%B1a.png)  
+

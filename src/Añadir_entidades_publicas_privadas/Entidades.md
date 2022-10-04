@@ -42,3 +42,6 @@
 
 > ¿Cómo actualizar los datos empresariales?
 
+## **Diagrama de añadir entidades publicas  y privadas**
+* ![Diagrama2](51.A%C3%B1adirEntidadesPublicas.png)
+

@@ -41,3 +41,6 @@
 >¿Qué debo poner para cambiar mis datos de docente?
 
 >¿Cómo actualizar mis datos personales como docente?
+
+## **Diagrama de Ficha de docente**
+* ![Diagrama3](8.ActualizarFichaDocente.png)

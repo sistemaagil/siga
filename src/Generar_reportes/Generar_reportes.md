@@ -4,11 +4,11 @@
 <br>
 
 Presione [Click Aquí](https://youtu.be/CNDAp6I6SnY) para ver Video Demostrativo.  
-1. Dirijase a la sección "Módulos" en la parte superior izquierda e ingrese al módulo "Reportes".
+1. Diríjase a la sección "Módulos" en la parte superior izquierda e ingrese al módulo "Reportes".
 
     ![GIF](GR_2.gif)
 
-2. En el menú de reportes presione dentro del submenú "Ejecución de Reportes".
+2. En el menú de reportes presione dentro del submenu "Ejecución de Reportes".
 
     ![GIF2](GR_3.gif)
 
@@ -55,4 +55,6 @@ Presione [Click Aquí](https://youtu.be/CNDAp6I6SnY) para ver Video Demostrativo
                        
 > ¿Como descargo el reporte?   
 
-> ¿Donde imprimo el reporte?           
+> ¿Donde imprimo el reporte?
+* ## **Diagrama de Generar reportes**
+* ![Diagrama2](11%2C32y47.GenerarReportes.png)          

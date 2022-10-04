@@ -3,10 +3,10 @@
 
 Presione [Click Aquí](https://youtu.be/qvGZcEDC_Nw) para ver Video Demostrativo
 Una vez que inicio sesión en el sistema SIGA.  
-1. Dirijase a la sección módulo y seleccione el menú docente.   
+1. Diríjase a la sección módulo y seleccione el menú docente.   
     ![gif](RAN_1.gif)  
 
-2. Seleccione el submenú "Mi Docencia" seguido del apartado Distributivo.
+2. Seleccione el submenu "Mi Docencia" seguido del apartado Distributivo.
     ![gif](RAN_dis.gif)
 
 3. Elija la fecha de registro, presione el botón registro de asistencia.
@@ -25,11 +25,11 @@ Una vez que inicio sesión en el sistema SIGA.
     ![gif](RAN_7.gif)
 
 
-# **Registro de notas**
+* ## **Registro de notas**
 
 Realizamos los siguientes pasos.
 
-1. Selecciones el submenú solicitudes.
+1. Selecciones el submenu solicitudes.
     ![gif](RAN_1.1.gif)
 
 2. Haga click en el botón nuevo.
@@ -43,4 +43,10 @@ Realizamos los siguientes pasos.
 
 5. Presione el botón guardar. 
     ![gif](RAN_1.5.gif)
+
+* ## **Diagrama de Registro de asistencias**
+ ![Diagrama2](17.RegistroDeAsistencia.png) 
+
+* ## **Diagrama de Registro de notas**
+ ![Diagrama2](17.RegistroDeNotas.png) 
 

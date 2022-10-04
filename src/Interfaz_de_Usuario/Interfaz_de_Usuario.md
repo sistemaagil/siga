@@ -8,13 +8,13 @@ Una vez iniciado sesión en el sistema SIGA encontrara la siguiente  interfaz.
 
     ![Icono2](IDU_icono2.gif)
 
-2. El ícono usuario contiene submenús de ayuda.
+2. El ícono usuario contiene submenus de ayuda.
 
     ![Submenu](IDU_Submenu.gif)
 
 3. En la barra superior izquierda se encuentra un ícono amarillo  que le permite recargar la página.
 
-    ![Boton](IDU_boton.gif)
+    ![Botón](IDU_boton.gif)
 
 4. En la barra lateral izquierda está la sección módulo que contiene los menús principales que varia según el rol logeado.
 
@@ -24,7 +24,7 @@ Una vez iniciado sesión en el sistema SIGA encontrara la siguiente  interfaz.
 
     ![Módulo1](IDU_modulo1.gif)
 
-6. En el centro de la pantalla aparececera las funcionalidades  según la opción que escoja en el menú. 
+6. En el centro de la pantalla aparecerá las funcionalidades  según la opción que escoja en el menú. 
 
     ![Módulo2](IDU_modulo2.gif)
 
@@ -35,4 +35,6 @@ Una vez iniciado sesión en el sistema SIGA encontrara la siguiente  interfaz.
 
 > ¿Dónde puedo ver los módulos que tengo ?
 
-> ¿Cómo puedo regresar al inicio?           
+> ¿Cómo puedo regresar al inicio? 
+* ## **Diagrama de interfaz de usuario**
+* ![Diagrama2](6.InterfazSIGA.png)            

@@ -22,12 +22,15 @@ Seleccione la interfaz ***Estudiantes ITS***.
 [Gif07](GifCE4.gif)
 
 
-5. También puede realizar su consulta por carrera y estado, al final del listado encontrara una barra que ayudara en su busqueda. 
+5. También puede realizar su consulta por carrera y estado, al final del listado encontrara una barra que ayudara en su búsqueda. 
 ![Gif04](GifCE5.gif)
 
 
 6. En lado superior derecho de búsqueda encontrará un botón amarillo el cual le permitirá ordenar la información obtenida a su preferencia.
 ![Gif01](GiFCE6.gif)
+
+## **Diagrama de configurar horarios**
+* ![Diagrama2](36.ConsultarEstudiantesITS.png)
 
 
 

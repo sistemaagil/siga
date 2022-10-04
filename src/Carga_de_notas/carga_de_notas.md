@@ -31,4 +31,7 @@ seleccioné el sub modulo "Distributivo"
 
 > *Cómo guardo las notas digitadas* **?**
 
+## **Diagrama de cargar notas**
+* ![Diagrama2](31.CargarNotas.png)
+
 

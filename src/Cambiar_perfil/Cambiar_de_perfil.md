@@ -21,3 +21,7 @@ Presione [Click Aquí](https://youtu.be/1RcJUk4SkE8) para ver Video Demostrativo
 > ¿Cuándo tengo que cambiar mi perfil de usuario?
 
 > ¿Cuántos perfiles de usuarios puedo tener?
+
+## **Diagrama de cambiar perfil**
+* ![Diagrama2](14.CambiarPerfil.png)
+

@@ -16,7 +16,7 @@ Para ingresar al sistema dirigirse al siguiente link: http://siga.institutos.gob
 
 ![Académico](2.gif)
 
-**4.** Ahora dirigírsete al menú estudiante, aquí se desplegará un submenú pero en este caso seleccionar **Ficha Personal**.
+**4.** Ahora dirígete al menú estudiante, aquí se desplegará un submenu pero en este caso seleccionar **Ficha Personal**.
 
 ![Ficha Personal](1.1.gif)
 
@@ -102,5 +102,8 @@ Imprime la ficha y se firmará de forma manual con esfero de color azul; esta fi
 #### ***Preguntas relacionadas***
 
 > ¿Cómo selecciono la provincia y cantón de nacimiento o residencia?
-> ¿Dode cargar los documentos para realizar la matriculación?
-> ¿Dónde encuentro el submenú de **Ficha Personal**?
+> ¿Donde cargar los documentos para realizar la matriculación?
+> ¿Dónde encuentro el submenu de **Ficha Personal**?
+
+## **Diagrama de matricula**
+* ![Diagrama2](2y3.FichaPersonal-y-Matriculacion.png)

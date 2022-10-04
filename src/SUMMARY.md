@@ -27,7 +27,7 @@
 - [Actualizar paralelo](./Actualizar_Paralelo/Actualizar_Paralelo.md)
 - [Registro de asistencia y notas](./Registro_de_asistencia_y_notas/Registro_de_notas_y_asistencia.md)
 - [Tipos de materias](./Tipo_de_materias/tipo_de_materiaas.md)
-
+- [Maestro de matriculas](./Consulta_de_matricula/Consulta_de_matricula.md)
 # Perfil Coordinador
 
 
@@ -43,7 +43,7 @@
 - [Cambiar código de asignatura](./Cambiar_codigo_de_Asignaturas/Cambiar_codigo_de_carreras.md)
 - [Crear asignatura](./Generar_asignaturas/Generar_asignaturas.md)
 - [Modificar asignatura](./Modificar_asignatura/Modificar_asignatura.md)
-- [Eliminar asignatura](./Eliminar_asignatura/Eliminar_asignatura.md)
+- [Eliminar asignatura](./Eliminar%20asignatura/Eliminar_asignatura.md)
 - [Maestro Paralelos](./Maestro_paralelos/Maestro_paralelos.md)
 # Maestro Notas
 - [Consultar notas](./Maestro_notas_consulta_notas/Maestro_notas_consulta_notas.md)
@@ -52,7 +52,7 @@
 
 # Perfil Revisor
 - [Revisar  pre-matricula](./Revision_preMatricula/siga_pre_matricula.md)
-# Perfil Lider SIGA
+# Perfil Líder SIGA
 - [Actualizar contraseña de otros usuarios](./Actualizar_contrasena_de_otros_usuarios/actConOtrosUsu.md)
 - [Resetear clave]()
 - [Estudiantes IST](./Estudiantes_ITS//ConsultaEstudiantes.md)
@@ -70,6 +70,6 @@
 - [Generar reportes](./Generar_reportes/Generar_reportes.md)
 - [Dashboard](./Dashboard/Dashboard.md)
 - [Registrar docente](./registro_de_docente/Registro_Docentes.md)
-- [Solcitud de actualización de perfiles](./Solicitud_de_actualizacion_de_perfiles/Solicitud_de_actualizacion_de_perfiles.md)
-- [Añadir entiedades publicas/privadas](./Anadir_entidades_publicas_privadas/Entidades.md)
+- [Solicitud de actualización de perfiles](./Solicitud_de_actualizacion_de_perfiles/Solicitud_de_actualizacion_de_perfiles.md)
+- [Añadir entidades publicas/privadas](./Anadir_entidades_publicas_privadas/Entidades.md)
 - [Solicitud de soporte](./Solicitud_Soporte/Solicitud_de_soporte.md)

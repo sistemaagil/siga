@@ -21,6 +21,8 @@ Presione [Click Aquí](https://youtu.be/mb1pTxtPKtE) para ver Video Demostrativo
 
 >¿Como recuperar mi contraseña?
 
+* ## **Diagrama de Iniciar Sesión**
+* ![Diagrama2](5.IniciarSesi%C3%B3n.png)
 
 
 

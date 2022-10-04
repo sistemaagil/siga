@@ -13,3 +13,6 @@ Inicie sesión en el sistema SIGA [http://siga.institutos.gob.ec:8080/siga-web/]
 
 3. Se reflejará sus datos, Horario de Clases, Asignaturas y Notas.
 ![Gif01](GIFMS3.gif)
+
+## **Diagrama de consultar información del estudiante**
+* ![Diagrama2](Conultar%20informaci%C3%B3n%20del%20estudiante.png)

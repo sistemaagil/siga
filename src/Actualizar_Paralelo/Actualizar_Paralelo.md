@@ -13,3 +13,7 @@
 3. Una vez completado el proceso presione el botón guardar.
 
     ![gif](AP_14.gif)
+
+    * ## **Diagrama de Modificar Paralelo en el sistema SIGA**
+
+   * ![Diagrama1](16.ActualizarParalelo.png)

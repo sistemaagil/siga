@@ -52,10 +52,13 @@ Una vez que inicio sesión en el sistema SIGA:
 
     ![gif](CP_12.gif)
 
-13. Para ubicar al docente lo puede hacer mediante (numero de cédula) o por su nombre,  presione la tecla TAB de su teclado, elija al docente asigando y haga click en el botón aceptar.
+13. Para ubicar al docente lo puede hacer mediante (numero de cédula) o por su nombre,  presione la tecla TAB de su teclado, elija al docente asignado y haga click en el botón aceptar.
 
     ![gif](CP_13.gif)
 
 14. Una vez completado el proceso presione el botón guardar.
 
     ![gif](CP_14.gif)
+
+    ## **Diagrama de crear paralelo**
+* ![Diagrama2](15.CrearParalelo.png)

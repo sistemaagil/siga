@@ -26,6 +26,9 @@ Presione [Click Aquí](https://youtu.be/IJCUgMVwHeM) para ver Video Demostrativo
 55. Elija la asignatura que quiera borrar y dé click en el botón "Eliminar" y listo, ha completado el proceso de eliminar una asignatura.
 
     ![GIFGA5](EA_GIF5.gif)
+    ## **Diagrama de eliminar asignatura**
+* ![Diagrama2](26%2C27y28.CrearModificarEliminarAsignatura.png)
+
 
 
 

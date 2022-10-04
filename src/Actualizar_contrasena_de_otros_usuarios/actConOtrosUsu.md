@@ -26,6 +26,8 @@ Presione [Click Aquí](https://www.youtube.com/watch?v=JKhc79c-A_E) para ver Vid
     ![Paso](ACOU_5.gif)
     Luego de haber digitado la nueva clave, damos click en el boton regenerar clave. Y listo ha completado el cambiar de clave satisfactoriamente.
     ![Paso](ACOU_final.gif)
+    * ## **Diagrama de actualizar contraseña de otros usuarios**
+![Diagrama](1.ActualizarContrase%C3%B1a.png)
 
 
 

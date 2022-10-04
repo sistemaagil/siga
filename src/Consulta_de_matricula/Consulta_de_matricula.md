@@ -8,11 +8,11 @@ Presione [Click Aquí](https://youtu.be/ptMUQ9rm2Tc) para ver Video Demostrativo
 
    ![CdM1.gif](CdM1.gif)
 
-2. Diríjase a la opción módulos, luego al submenú matricula 
+2. Diríjase a la opción módulos, luego al submen matricula 
 
    ![CdM2.gif](CdM2.gif)
    
-3. Clic en la opción matricula luego diríjase al submenú Maestro de Matrículas (Recuerde que en esta opción se le reflejaran todos los estudiantes matriculados en las diferentes asignaturas Cabe recalcar que, si se conecta un coordinador de carrera, solo podrá visualizar los estudiantes de su carrera)
+3. Clic en la opción matricula luego diríjase al submen Maestro de Matrículas (Recuerde que en esta opción se le reflejaran todos los estudiantes matriculados en las diferentes asignaturas Cabe recalcar que, si se conecta un coordinador de carrera, solo podrá visualizar los estudiantes de su carrera)
 
   ![CdM3.gif](CdM3.gif)
 
@@ -54,7 +54,7 @@ Formulario: ficha del estudiante
 ![CdM12.gif](CdM12.gif)
 
 Y listo ha concluido con la Consulta de matricula.
-Gracias por su atencion.
+Gracias por su atención.
 
 ## **Preguntas Relacionadas**
 
@@ -63,6 +63,9 @@ Gracias por su atencion.
 > ¿Puedo buscar un estudiante solo con sus nombres completos?
 
 > ¿Puedo revisar los documentos que ha subido el estudiante?
+
+## **Diagrama de matricula**
+* ![Diagrama2](2y3.FichaPersonal-y-Matriculacion.png)
 
   
   

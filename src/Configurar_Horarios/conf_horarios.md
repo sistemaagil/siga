@@ -27,4 +27,7 @@ Para ello realizaremos los siguientes pasos.
 11. Luego de terminar de configurar los horarios presione el botón "Guardar" y aparecerá un mensaje diciendo "Proceso realizado con éxito".
 ![guardar](CH_guardar.gif)
 
+## **Diagrama de configurar horarios**
+* ![Diagrama2](39.CargarHorario-y-Calendario.png)
+
 

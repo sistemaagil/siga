@@ -10,6 +10,9 @@ Presione [Click Aquí](https://youtu.be/uuT5OJxrvlw) para ver Video Demostrativo
 
     ![Gif](CD_2.gif)
 
-3. El docente podra visualizar las asignaturas, el paralelo, el nivel, la carrera y el curso correspondiente en el que esta asignado. 
+3. El docente podrá visualizar las asignaturas, el paralelo, el nivel, la carrera y el curso correspondiente en el que esta asignado. 
 
     ![Gif](CD_3.gif)
+
+## **Diagrama de consultar distributivo**
+* ![Diagrama2](9.Distributivo.png)

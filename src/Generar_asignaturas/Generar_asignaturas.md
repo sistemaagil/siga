@@ -11,17 +11,17 @@
 3. Nos dirigimos hacia la carrera que deseamos crear una asignatura (En este ejemplo seleccionamos Desarrollo de Software) y damos clic en el botón “Niveles Académicos”
   ![GIF3](GA_3.gif) 
 
-4. Seleccionamos la asignatura y clickamos en el botón "Nuevo". 
+4. Seleccionamos la asignatura y damos click en el botón "Nuevo". 
   ![IMGA1](GA_img2.png) 
   Y nos mostrará una serie de opciones que podemos generar en la asignatura.
 ![IMG2](GA_IMG1.jpg)
 
 ## **Opciones de generación de asignatura**  
-En el apartado codigo coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos generar.
+En el apartado código coloque el nuevo código de la asignatura. En el apartado “Nombre” colocaremos el nombre de la asignatura que deseamos generar.
 
 ![GIF12](GA_12.gif) 
 
- Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas preprofesionales, inglés o titulación.
+ Tipo de Actividad: puede elegir si es, normal(Pertenece a la malla), proyecto integrador, practicas pre-profesionales, inglés o titulación.
 
 ![GIF7](GA_7.gif)
 
@@ -51,5 +51,7 @@ En el apartado codigo coloque el nuevo código de la asignatura. En el apartado 
 
 7. Una vez finalizado el proceso damos clic al botón “Guardar” y listo ha completado el proceso de generar una asignatura.
 ![GIF13](GA_13.gif)
+* ## **Diagrama de Generar asignatura**
+* ![Diagrama2](26%2C27y28.CrearModificarEliminarAsignatura.png)
 
 

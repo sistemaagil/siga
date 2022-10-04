@@ -8,8 +8,11 @@ A continuación realice los siguientes pasos para configurar el calendario.
 2. Presione click en el día que necesite configurar.
  Se desplegará una ventana y seleccione el "Tipo de Hito" según necesite.
  ![diaInicio](CC_diaInicio.gif)
-3. Relice los mimos pasos para la "Fecha Final".
+3. Realice los mimos pasos para la "Fecha Final".
 ![diaFin](CC_diaFin.gif)
 
-4. Por último presione el botón "Gurdar".
+4. Por último presione el botón "Guardar".
 ![guardarCalendar](CC_guardarCalendar.gif)
+
+## **Diagrama de Configuración de calendarios**
+* ![Diagrama2](39.CargarHorario-y-Calendario.png)

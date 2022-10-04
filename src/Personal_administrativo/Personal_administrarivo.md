@@ -1,6 +1,6 @@
 # **Crear Personal Administrativo**
 
-1. Cambiamos el rol a LIDER SIGA.
+1. Cambiamos el rol a LÍDER SIGA.
 
 ![gif](PA_1.gif)
 ---
@@ -8,15 +8,15 @@
 
 ![gif](PA_2.gif)
 ---
-3. En el menú instituto seleccionamos el submenú "Personal Administrativo".
+3. En el menú instituto seleccionamos el submenu "Personal Administrativo".
 
 ![gif](PA_3.gif)
 ---
-4. Presionamosel botón nuevo.
+4. Presionamos el botón nuevo.
 
 ![gif](PA_7.gif)
 --- 
-5. Esciba el tipo de documento y la identificación.
+5. Escriba el tipo de documento y la identificación.
 
 ![gif](PA_8.gif)
 ---
@@ -36,7 +36,7 @@
 
 ![gif](PA_12.gif)
 ---
-10. Selecione el estado.
+10. Seleccioné el estado.
 
 ![gif](PA_13.gif)
 ---
@@ -70,7 +70,7 @@
 
 ![gif](PA_14.gif)
 ---
-2. Aparecera un mensaje de comfirmación.
+2. Aparecerá un mensaje de confirmación.
 
 ![gif](PA_15.gif)
 ---
