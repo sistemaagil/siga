@@ -7,7 +7,7 @@
 - [Recuperar contraseña](./Recuperar_contrasena/recuperar_contrasena.md)
 - [Actualizar ficha personal](./Ficha_Personal/Actualizar_Ficha_Personal_E.md)
 - [Solicitud de matricula](./Solicitud_de_matricula/solicitud_de_matricula.md)
-- [Información del Estudiante](mi_semestre/mi_semestre.md)
+- [Consultar información del estudiante](./Consultar_informacion_del_estudiante/Consultar_informacion_del_estudiante.md)
 
 
 

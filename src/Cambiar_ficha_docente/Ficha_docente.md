@@ -6,7 +6,7 @@
 
     ![Módulo](CFD_Módulo.gif)
 
-2. En el menú Mi Docencia seleccione el submenú **Ficha Docente**.
+2. En el menú Mi Docencia seleccione el submenu **Ficha Docente**.
 
     ![Ficha](CFD_Ficha.gif)
 
